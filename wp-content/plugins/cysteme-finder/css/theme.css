@@ -1,0 +1,50 @@
+/**
+ * MacOS X like theme for elFinder.
+ * Required jquery ui "smoothness" theme.
+ *
+ * @author Dmitry (dio) Levashov
+ **/
+
+/* dialogs */
+.std42-dialog, .std42-dialog .ui-widget-content { background-color:#ededed; background-image:none; background-clip: content-box; }
+
+/* navbar */
+.elfinder .elfinder-navbar { background:#333333; border-radius: 0px !important; }
+.elfinder-navbar .ui-state-hover  { background:#0073aa; border-color:#0073aa; border-radius: 0px !important;cursor:pointer; color:#ffffff}
+.elfinder-navbar .ui-state-active { background: #0073aa;    border-color:#0073aa; color:#fff; border-radius: 0px !important; color:#ffffff}
+/* disabled elfinder */
+.elfinder-disabled .elfinder-navbar .ui-state-active { background: #dadada; border-color:#aaa; color:#fff; }
+
+
+/* current directory */
+/* selected file in "icons" view */
+.elfinder-cwd-view-icons .elfinder-cwd-file .ui-state-hover { background:#0073aa; color:#ffffff }
+.elfinder-cwd-file:hover { background:#0073aa !important; cursor:pointer; color:#ffffff !important }
+/* list view*/
+.elfinder-cwd table tr:nth-child(odd) { background-color:#edf3fe; }
+.elfinder-cwd table tr { border-top:1px solid #fff; }
+
+/* common selected background/color */
+.elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.elfinder-cwd table td.ui-state-hover,
+.elfinder-button-menu .ui-state-hover { background: #3875d7; color:#fff;}
+/* disabled elfinder */
+.elfinder-disabled .elfinder-cwd-view-icons .elfinder-cwd-file .elfinder-cwd-filename.ui-state-hover,
+.elfinder-disabled .elfinder-cwd table td.ui-state-hover { background:#dadada;}
+
+/* statusbar */
+.elfinder .elfinder-statusbar { color:#555; }
+.elfinder .elfinder-statusbar a { text-decoration:none; color:#555;}
+
+
+.std42-dialog .elfinder-help, .std42-dialog .elfinder-help .ui-widget-content { background:#fff;}
+
+/* contextmenu */
+.elfinder-contextmenu .ui-state-hover { background: #3875d7; color:#fff; }
+.elfinder-contextmenu .ui-state-hover .elfinder-contextmenu-arrow { background-image:url('../img/arrows-active.png'); }
+
+.ui-widget-content { background-color: #f1f1f1;}
+
+
+
+

@@ -1,0 +1,16 @@
+.flickity-page-dots .dot{
+	opacity: 0.15;
+	background-color: transparent;
+	border: 2px solid #000;
+	.transition(opacity 200ms);
+	width: 11px;
+	height: 11px;
+	margin: 0 11px;
+	&:hover{
+		opacity: 0.5;
+	}
+}
+.flickity-page-dots .dot.is-selected{
+	background-color: @heroColor;
+	border-color: @heroColor;
+}

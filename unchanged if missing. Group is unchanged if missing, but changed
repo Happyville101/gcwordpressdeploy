@@ -1,0 +1,1025 @@
+-- Logs begin at Sat 2017-01-28 12:54:57 CST, end at Sat 2017-01-28 14:33:02 CST. --
+Jan 28 13:55:58 gcmainserv sh[859]: 2017-01-28 13:55:58 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:hwe-v: to_add=['20170123'] to_remove=[]
+Jan 28 13:55:58 gcmainserv sh[859]: 2017-01-28 13:55:58 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:armhf:generic-lpae-generic-lpae: to_add=['20170126'] to_remove=[]
+Jan 28 13:55:58 gcmainserv sh[859]: 2017-01-28 13:55:58 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:i386:ga-16.10: to_add=['20170127'] to_remove=[]
+Jan 28 13:55:58 gcmainserv sh[859]: 2017-01-28 13:55:58 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:amd64:hwe-16.10: to_add=['20170127'] to_remove=[]
+Jan 28 13:55:58 gcmainserv sh[859]: 2017-01-28 13:55:58 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:s390x:ga-16.04: to_add=['20170126'] to_remove=[]
+Jan 28 13:55:58 gcmainserv sh[859]: 2017-01-28 13:55:58 sstreams: [info] com.ubuntu.maas:daily:centos-bases-download/com.ubuntu.maas.daily:centos-bases:6.6:amd64: to_add=['20161201_01'] to_remove=[]
+Jan 28 13:55:58 gcmainserv sh[859]: 2017-01-28 13:55:58 sstreams: [info] com.ubuntu.maas:daily:centos-bases-download/com.ubuntu.maas.daily:centos-bases:7.0:amd64: to_add=['20161201_01'] to_remove=[]
+Jan 28 13:55:58 gcmainserv maas.bootresources[875]: [0;1;39m[info] Importing images from source: http://images.maas.io/ephemeral-v3/daily/[0m
+Jan 28 13:55:59 gcmainserv sh[859]: 2017-01-28 13:55:59 sstreams: [info] com.ubuntu.maas:daily:1:bootloader-download/com.ubuntu.maas.daily:1:pxelinux:pxe:i386: to_add=['20160930.0'] to_remove=[]
+Jan 28 13:55:59 gcmainserv sh[859]: 2017-01-28 13:55:59 sstreams: [info] com.ubuntu.maas:daily:1:bootloader-download/com.ubuntu.maas.daily:1:grub-efi-signed:uefi:amd64: to_add=['20170125.0'] to_remove=[]
+Jan 28 13:55:59 gcmainserv sh[859]: 2017-01-28 13:55:59 sstreams: [info] com.ubuntu.maas:daily:1:bootloader-download/com.ubuntu.maas.daily:1:grub-efi:uefi:arm64: to_add=['20170125.0'] to_remove=[]
+Jan 28 13:55:59 gcmainserv sh[859]: 2017-01-28 13:55:59 sstreams: [info] com.ubuntu.maas:daily:1:bootloader-download/com.ubuntu.maas.daily:1:grub-ieee1275:open-firmware:ppc64el: to_add=['20170125.0'] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:i386:hwe-r: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:i386:ga-17.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:armhf:hwe-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:arm64:xgene-uboot-mustang: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:arm64:ga-17.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:amd64:hwe-u: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:arm64:hwe-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:ppc64el:ga-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:i386:ga-16.04-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:i386:hwe-v: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:ppc64el:ga-17.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:i386:hwe-w: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:armhf:generic-lpae-generic-lpae: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:ppc64el:hwe-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:i386:hwe-x: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:arm64:hwe-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:amd64:hwe-w: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:ppc64el:hwe-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:i386:hwe-16.04-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:armhf:hwe-x: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:s390x:ga-17.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:i386:hwe-q: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:i386:hwe-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:ppc64el:hwe-u: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:amd64:hwe-s: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:armhf:hwe-t: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:s390x:hwe-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:amd64:hwe-q: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:amd64:ga-17.04-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:ppc64el:hwe-t: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:armhf:highbank-highbank: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:arm64:xgene-uboot-mustang: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:amd64:hwe-16.04-lowlatency: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:hwe-x: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:armhf:generic-lpae-generic-lpae: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:amd64:hwe-t: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:ppc64el:hwe-x: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:armhf:keystone-keystone: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:armhf:hwe-w: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:armhf:ga-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:amd64:hwe-16.04: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:s390x:hwe-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:i386:ga-17.04-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:amd64:hwe-16.10-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:amd64:hwe-r: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:armhf:ga-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:i386:ga-16.10-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:arm64:xgene-uboot: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:amd64:ga-16.04-lowlatency: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:amd64:hwe-x-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:hwe-t: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:armhf:hwe-u: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:i386:hwe-p: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:i386:hwe-s: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:armhf:ga-17.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:arm64:xgene-uboot-mustang: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:i386:hwe-16.10-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:i386:hwe-t: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:amd64:ga-16.10-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:i386:hwe-x-lowlatency: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:arm64:xgene-uboot: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:ppc64el:hwe-w: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:i386:hwe-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:amd64:ga-16.04: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:armhf:generic-lpae-generic-lpae: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:ppc64el:ga-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:hwe-w: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:hwe-u: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:amd64:ga-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:arm64:xgene-uboot: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:xgene-uboot: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:armhf:hwe-v: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:amd64:hwe-v: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:amd64:hwe-p: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:i386:hwe-t: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:i386:ga-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:i386:hwe-u: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:17.04:amd64:ga-17.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:s390x:ga-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:xgene-uboot-mustang: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:arm64:ga-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:ppc64el:hwe-v: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:12.04:amd64:hwe-t: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:arm64:ga-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:armhf:hwe-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:amd64:hwe-x: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:14.04:arm64:hwe-v: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:armhf:generic-lpae-generic-lpae: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:i386:ga-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.10:amd64:hwe-16.10: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:v3:download/com.ubuntu.maas.daily:v3:boot:16.04:s390x:ga-16.04: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:centos-bases-download/com.ubuntu.maas.daily:centos-bases:6.6:amd64: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 sstreams: [info] com.ubuntu.maas:daily:centos-bases-download/com.ubuntu.maas.daily:centos-bases:7.0:amd64: to_add=[] to_remove=[]
+Jan 28 13:56:01 gcmainserv maas.bootresources[875]: [0;1;39m[info] Finished importing of boot images from 1 source(s).[0m
+Jan 28 13:56:01 gcmainserv sh[859]: 2017-01-28 13:56:01 maasserver.clusterrpc.boot_images: [info] Rack controller (mea8bp) has imported boot resources.
+Jan 28 13:56:01 gcmainserv maas.import-images[905]: [0;1;39m[info] Started importing boot images.[0m
+Jan 28 13:56:01 gcmainserv maas.import-images[905]: [0;1;39m[info] Downloading image descriptions from http://localhost:5240/MAAS/images-stream/streams/v1/index.json[0m
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:hwe-16.04-lowlatency:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:pxelinux:i386:generic:pxe: to_add=['20160930.0'] to_remove=[]
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:grub-efi:arm64:generic:uefi: to_add=['20170125.0'] to_remove=[]
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:grub-ieee1275:ppc64el:generic:open-firmware: to_add=['20170125.0'] to_remove=[]
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:grub-efi-signed:amd64:generic:uefi: to_add=['20170125.0'] to_remove=[]
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:ga-16.04:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:hwe-16.04:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:02 gcmainserv sh[904]: 2017-01-28 13:56:02 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:ga-16.04-lowlatency:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 13:56:02 gcmainserv maas.import-images[905]: [0;1;39m[info] Updating boot image iSCSI targets.[0m
+Jan 28 13:56:02 gcmainserv sudo[32703]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 13:56:02 gcmainserv sudo[32703]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:02 gcmainserv sudo[32703]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:56:02 gcmainserv sudo[32705]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/tgt-admin --conf /var/lib/maas/boot-resources/current/maas.tgt --update ALL[0m
+Jan 28 13:56:02 gcmainserv sudo[32705]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:114 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/ga-16.04-lowlatency/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:103 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/ga-16.04/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:102 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/generic/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:115 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-16.04-lowlatency/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:104 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-16.04/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-p/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-q/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-r/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-s/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-t/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-u/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-v/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-w/xenial/daily/squashfs
+Jan 28 13:56:02 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 13:56:02 gcmainserv sudo[32705]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:56:02 gcmainserv maas.import-images[905]: [0;1;39m[info] Finished importing boot images, the region does not have any new images.[0m
+Jan 28 13:56:16 gcmainserv sh[856]: 2017-01-28 13:56:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:56:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:56:46 gcmainserv sh[856]: 2017-01-28 13:56:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:56:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:56:46 gcmainserv sudo[574]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 13:56:46 gcmainserv sudo[574]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:46 gcmainserv sudo[574]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:56:46 gcmainserv sudo[578]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 13:56:46 gcmainserv sudo[578]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:46 gcmainserv sudo[579]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 13:56:46 gcmainserv sudo[579]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:46 gcmainserv sudo[579]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:56:46 gcmainserv sudo[578]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:56:52 gcmainserv sudo[591]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 13:56:52 gcmainserv sudo[591]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:52 gcmainserv sudo[591]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:56:52 gcmainserv sudo[592]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 13:56:52 gcmainserv sudo[592]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:52 gcmainserv sudo[592]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:56:52 gcmainserv sudo[598]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 13:56:52 gcmainserv sudo[598]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:56:52 gcmainserv sudo[598]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:57:16 gcmainserv sh[853]: 2017-01-28 13:57:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:57:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:57:46 gcmainserv sh[853]: 2017-01-28 13:57:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:57:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:57:46 gcmainserv sudo[642]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 13:57:46 gcmainserv sudo[642]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:57:46 gcmainserv sudo[642]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:57:46 gcmainserv sudo[645]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 13:57:46 gcmainserv sudo[645]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:57:46 gcmainserv sudo[648]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 13:57:46 gcmainserv sudo[645]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:57:46 gcmainserv sudo[648]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:57:46 gcmainserv sudo[648]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:57:52 gcmainserv sudo[662]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 13:57:52 gcmainserv sudo[662]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:57:52 gcmainserv sudo[663]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 13:57:52 gcmainserv sudo[663]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:57:52 gcmainserv sudo[662]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:57:52 gcmainserv sudo[663]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:57:52 gcmainserv sudo[665]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 13:57:52 gcmainserv sudo[665]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:57:52 gcmainserv sudo[665]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:58:16 gcmainserv sh[856]: 2017-01-28 13:58:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:58:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:58:46 gcmainserv sh[859]: 2017-01-28 13:58:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:58:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:58:46 gcmainserv sudo[703]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 13:58:46 gcmainserv sudo[703]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:58:46 gcmainserv sudo[703]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:58:46 gcmainserv sudo[704]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 13:58:46 gcmainserv sudo[704]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:58:46 gcmainserv sudo[704]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:58:46 gcmainserv sudo[707]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 13:58:46 gcmainserv sudo[707]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:58:46 gcmainserv sudo[707]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:58:52 gcmainserv sudo[721]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 13:58:52 gcmainserv sudo[721]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:58:52 gcmainserv sudo[722]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 13:58:52 gcmainserv sudo[722]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:58:52 gcmainserv sudo[721]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:58:52 gcmainserv sudo[722]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:58:52 gcmainserv sudo[728]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 13:58:52 gcmainserv sudo[728]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:58:52 gcmainserv sudo[728]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:59:16 gcmainserv sh[856]: 2017-01-28 13:59:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:59:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:59:46 gcmainserv sh[859]: 2017-01-28 13:59:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:19:59:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 13:59:46 gcmainserv sudo[763]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 13:59:46 gcmainserv sudo[763]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:59:46 gcmainserv sudo[763]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:59:46 gcmainserv sudo[769]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 13:59:46 gcmainserv sudo[769]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:59:46 gcmainserv sudo[766]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 13:59:46 gcmainserv sudo[766]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:59:46 gcmainserv sudo[769]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:59:46 gcmainserv sudo[766]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:59:52 gcmainserv sudo[783]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 13:59:52 gcmainserv sudo[783]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:59:52 gcmainserv sudo[783]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:59:52 gcmainserv sudo[784]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 13:59:52 gcmainserv sudo[784]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:59:52 gcmainserv sudo[784]: pam_unix(sudo:session): session closed for user root
+Jan 28 13:59:52 gcmainserv sudo[786]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 13:59:52 gcmainserv sudo[786]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 13:59:52 gcmainserv sudo[786]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:00:01 gcmainserv CRON[799]: pam_unix(cron:session): session opened for user smmsp by (uid=0)
+Jan 28 14:00:01 gcmainserv CRON[801]: (smmsp) CMD (test -x /etc/init.d/sendmail && test -x /usr/share/sendmail/sendmail && test -x /usr/lib/sm.bin/sendmail && /usr/share/sendmail/sendmail cron-msp)
+Jan 28 14:00:01 gcmainserv CRON[800]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 14:00:01 gcmainserv CRON[803]: (root) CMD (ddclient)
+Jan 28 14:00:01 gcmainserv sendmail[805]: [0;1;31mMy unqualified host name (gcmainserv) unknown; sleeping for retry[0m
+Jan 28 14:00:01 gcmainserv sm-msp-queue[822]: [0;1;31mMy unqualified host name (gcmainserv) unknown; sleeping for retry[0m
+Jan 28 14:00:16 gcmainserv sh[853]: 2017-01-28 14:00:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:00:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:00:46 gcmainserv sh[859]: 2017-01-28 14:00:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:00:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:00:46 gcmainserv sudo[850]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:00:46 gcmainserv sudo[850]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:00:46 gcmainserv sudo[850]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:00:46 gcmainserv sudo[851]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:00:46 gcmainserv sudo[851]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:00:46 gcmainserv sudo[851]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:00:46 gcmainserv sudo[860]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:00:46 gcmainserv sudo[860]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:00:46 gcmainserv sudo[860]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:00:52 gcmainserv sudo[878]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:00:52 gcmainserv sudo[878]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:00:52 gcmainserv sudo[878]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:00:52 gcmainserv sudo[880]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:00:52 gcmainserv sudo[880]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:00:52 gcmainserv sudo[880]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:00:52 gcmainserv sudo[885]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:00:52 gcmainserv sudo[885]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:00:52 gcmainserv sh[859]: 2017-01-28 14:00:52 maasserver.regiondservices.active_discovery: [info] Active network discovery: Active scanning is not enabled on any subnet. Skipping periodic scan.
+Jan 28 14:00:52 gcmainserv sudo[885]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:01:01 gcmainserv sendmail[805]: [0;1;31munable to qualify my own domain name (gcmainserv) -- using short name[0m
+Jan 28 14:01:01 gcmainserv sm-msp-queue[822]: [0;1;31munable to qualify my own domain name (gcmainserv) -- using short name[0m
+Jan 28 14:01:01 gcmainserv CRON[799]: pam_unix(cron:session): session closed for user smmsp
+Jan 28 14:01:01 gcmainserv sendmail[805]: v0SK11FJ000805: from=root, size=311, class=0, nrcpts=1, msgid=<201701282001.v0SK11FJ000805@gcmainserv>, bodytype=8BITMIME, relay=root@localhost
+Jan 28 14:01:02 gcmainserv sm-mta[898]: v0SK11Dx000898: from=<root@gcmainserv>, size=555, class=0, nrcpts=1, msgid=<201701282001.v0SK11FJ000805@gcmainserv>, bodytype=7BIT, proto=ESMTP, daemon=MTA-v4, relay=localhost [127.0.0.1]
+Jan 28 14:01:02 gcmainserv sendmail[805]: v0SK11FJ000805: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:01, mailer=relay, pri=30311, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (v0SK11Dx000898 Message accepted for delivery)
+Jan 28 14:01:02 gcmainserv CRON[800]: pam_unix(cron:session): session closed for user root
+Jan 28 14:01:02 gcmainserv sm-mta[899]: v0SK11Dx000898: to=<root@gcmainserv>, ctladdr=<root@gcmainserv> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=30749, dsn=2.0.0, stat=Sent
+Jan 28 14:01:16 gcmainserv sh[856]: 2017-01-28 14:01:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:01:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:01:46 gcmainserv sh[856]: 2017-01-28 14:01:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:01:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:01:46 gcmainserv sudo[970]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:01:46 gcmainserv sudo[970]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:01:46 gcmainserv sudo[970]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:01:46 gcmainserv sudo[972]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:01:46 gcmainserv sudo[972]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:01:46 gcmainserv sudo[972]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:01:46 gcmainserv sudo[975]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:01:46 gcmainserv sudo[975]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:01:46 gcmainserv sudo[975]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:01:52 gcmainserv sudo[988]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:01:52 gcmainserv sudo[988]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:01:52 gcmainserv sudo[988]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:01:52 gcmainserv sudo[990]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:01:52 gcmainserv sudo[990]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:01:52 gcmainserv sudo[990]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:01:52 gcmainserv sudo[991]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:01:52 gcmainserv sudo[991]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:01:52 gcmainserv sudo[991]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:02:16 gcmainserv sh[853]: 2017-01-28 14:02:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:02:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:02:46 gcmainserv sh[853]: 2017-01-28 14:02:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:02:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:02:46 gcmainserv sudo[1031]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:02:46 gcmainserv sudo[1031]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:02:46 gcmainserv sudo[1031]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:02:46 gcmainserv sudo[1032]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:02:46 gcmainserv sudo[1032]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:02:46 gcmainserv sudo[1032]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:02:46 gcmainserv sudo[1034]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:02:46 gcmainserv sudo[1034]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:02:46 gcmainserv sudo[1034]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:02:52 gcmainserv sudo[1047]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:02:52 gcmainserv sudo[1047]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:02:52 gcmainserv sudo[1047]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:02:52 gcmainserv sudo[1048]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:02:52 gcmainserv sudo[1048]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:02:52 gcmainserv sudo[1048]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:02:52 gcmainserv sudo[1053]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:02:52 gcmainserv sudo[1053]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:02:52 gcmainserv sudo[1053]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:03:16 gcmainserv sh[853]: 2017-01-28 14:03:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:03:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:03:46 gcmainserv sh[855]: 2017-01-28 14:03:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:03:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:03:46 gcmainserv sudo[1090]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:03:46 gcmainserv sudo[1090]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:03:46 gcmainserv sudo[1090]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:03:46 gcmainserv sudo[1094]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:03:46 gcmainserv sudo[1094]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:03:46 gcmainserv sudo[1094]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:03:46 gcmainserv sudo[1097]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:03:46 gcmainserv sudo[1097]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:03:46 gcmainserv sudo[1097]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:03:52 gcmainserv sudo[1107]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:03:52 gcmainserv sudo[1107]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:03:52 gcmainserv sudo[1109]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:03:52 gcmainserv sudo[1109]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:03:52 gcmainserv sudo[1107]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:03:52 gcmainserv sudo[1109]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:03:52 gcmainserv sudo[1110]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:03:52 gcmainserv sudo[1110]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:03:52 gcmainserv sudo[1110]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:04:16 gcmainserv sh[855]: 2017-01-28 14:04:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:04:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:04:46 gcmainserv sh[856]: 2017-01-28 14:04:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:04:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:04:46 gcmainserv sudo[1148]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:04:46 gcmainserv sudo[1148]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:04:46 gcmainserv sudo[1148]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:04:46 gcmainserv sudo[1149]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:04:46 gcmainserv sudo[1149]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:04:46 gcmainserv sudo[1149]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:04:46 gcmainserv sudo[1153]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:04:46 gcmainserv sudo[1153]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:04:46 gcmainserv sudo[1153]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:04:52 gcmainserv sudo[1166]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:04:52 gcmainserv sudo[1166]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:04:52 gcmainserv sudo[1166]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:04:52 gcmainserv sudo[1167]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:04:52 gcmainserv sudo[1167]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:04:52 gcmainserv sudo[1167]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:04:52 gcmainserv sudo[1171]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:04:52 gcmainserv sudo[1171]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:04:52 gcmainserv sudo[1171]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:05:01 gcmainserv CRON[1183]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 14:05:01 gcmainserv CRON[1184]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 14:05:01 gcmainserv CRON[1183]: pam_unix(cron:session): session closed for user root
+Jan 28 14:05:16 gcmainserv sh[856]: 2017-01-28 14:05:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:05:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:05:46 gcmainserv sh[853]: 2017-01-28 14:05:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:05:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:05:46 gcmainserv sudo[1211]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:05:46 gcmainserv sudo[1211]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:05:46 gcmainserv sudo[1211]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:05:46 gcmainserv sudo[1217]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:05:46 gcmainserv sudo[1217]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:05:46 gcmainserv sudo[1218]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:05:46 gcmainserv sudo[1218]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:05:46 gcmainserv sudo[1217]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:05:46 gcmainserv sudo[1218]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:05:46 gcmainserv sh[904]: 2017-01-28 14:05:46 provisioningserver.rackdservices.dhcp_probe_service: [info] Probe for external DHCP servers started on interfaces: enp0s25.
+Jan 28 14:05:52 gcmainserv sudo[1234]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:05:52 gcmainserv sudo[1234]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:05:52 gcmainserv sudo[1234]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:05:52 gcmainserv sh[859]: 2017-01-28 14:05:52 maasserver.regiondservices.active_discovery: [info] Active network discovery: Active scanning is not enabled on any subnet. Skipping periodic scan.
+Jan 28 14:05:52 gcmainserv sudo[1236]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:05:52 gcmainserv sudo[1236]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:05:52 gcmainserv sudo[1236]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:05:52 gcmainserv sudo[1239]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:05:52 gcmainserv sudo[1239]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:05:52 gcmainserv sudo[1239]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:05:56 gcmainserv sh[904]: 2017-01-28 14:05:56 provisioningserver.dhcp.detect: [info] External DHCP server(s) discovered on interface 'enp0s25': 10.0.0.1
+Jan 28 14:05:56 gcmainserv sh[904]: 2017-01-28 14:05:56 provisioningserver.rackdservices.dhcp_probe_service: [info] External DHCP probe complete.
+Jan 28 14:06:16 gcmainserv sh[859]: 2017-01-28 14:06:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:06:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:06:46 gcmainserv sh[859]: 2017-01-28 14:06:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:06:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:06:46 gcmainserv sudo[1280]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:06:46 gcmainserv sudo[1280]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:06:46 gcmainserv sudo[1280]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:06:46 gcmainserv sudo[1284]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:06:46 gcmainserv sudo[1284]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:06:46 gcmainserv sudo[1284]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:06:46 gcmainserv sudo[1285]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:06:46 gcmainserv sudo[1285]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:06:46 gcmainserv sudo[1285]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:06:52 gcmainserv sudo[1297]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:06:52 gcmainserv sudo[1297]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:06:52 gcmainserv sudo[1297]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:06:52 gcmainserv sudo[1298]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:06:52 gcmainserv sudo[1298]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:06:52 gcmainserv sudo[1298]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:06:52 gcmainserv sudo[1303]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:06:52 gcmainserv sudo[1303]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:06:52 gcmainserv sudo[1303]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:07:16 gcmainserv sh[856]: 2017-01-28 14:07:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:07:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:07:46 gcmainserv sh[853]: 2017-01-28 14:07:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:07:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:07:46 gcmainserv sudo[1351]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:07:46 gcmainserv sudo[1351]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:07:46 gcmainserv sudo[1351]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:07:46 gcmainserv sudo[1353]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:07:46 gcmainserv sudo[1353]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:07:46 gcmainserv sudo[1355]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:07:46 gcmainserv sudo[1355]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:07:46 gcmainserv sudo[1353]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:07:46 gcmainserv sudo[1355]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:07:52 gcmainserv sudo[1370]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:07:52 gcmainserv sudo[1370]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:07:52 gcmainserv sudo[1370]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:07:52 gcmainserv sudo[1371]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:07:52 gcmainserv sudo[1371]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:07:52 gcmainserv sudo[1371]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:07:52 gcmainserv sudo[1387]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:07:52 gcmainserv sudo[1387]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:07:52 gcmainserv sudo[1387]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:08:16 gcmainserv sh[853]: 2017-01-28 14:08:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:08:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:08:46 gcmainserv sh[853]: 2017-01-28 14:08:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:08:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:08:46 gcmainserv sudo[1425]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:08:46 gcmainserv sudo[1425]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:08:46 gcmainserv sudo[1425]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:08:46 gcmainserv sudo[1426]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:08:46 gcmainserv sudo[1426]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:08:46 gcmainserv sudo[1426]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:08:46 gcmainserv sudo[1429]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:08:46 gcmainserv sudo[1429]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:08:46 gcmainserv sudo[1429]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:08:52 gcmainserv sudo[1442]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:08:52 gcmainserv sudo[1442]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:08:52 gcmainserv sudo[1443]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:08:52 gcmainserv sudo[1443]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:08:52 gcmainserv sudo[1442]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:08:52 gcmainserv sudo[1443]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:08:52 gcmainserv sudo[1447]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:08:52 gcmainserv sudo[1447]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:08:52 gcmainserv sudo[1447]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:09:01 gcmainserv CRON[1470]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 14:09:01 gcmainserv CRON[1471]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && /usr/lib/php/sessionclean)
+Jan 28 14:09:01 gcmainserv CRON[1470]: pam_unix(cron:session): session closed for user root
+Jan 28 14:09:16 gcmainserv sh[853]: 2017-01-28 14:09:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:09:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:09:46 gcmainserv sh[859]: 2017-01-28 14:09:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:09:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:09:46 gcmainserv sudo[1577]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:09:46 gcmainserv sudo[1577]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:09:46 gcmainserv sudo[1577]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:09:46 gcmainserv sudo[1580]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:09:46 gcmainserv sudo[1580]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:09:46 gcmainserv sudo[1580]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:09:46 gcmainserv sudo[1583]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:09:46 gcmainserv sudo[1583]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:09:46 gcmainserv sudo[1583]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:09:52 gcmainserv sudo[1596]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:09:52 gcmainserv sudo[1596]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:09:52 gcmainserv sudo[1596]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:09:52 gcmainserv sudo[1594]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:09:52 gcmainserv sudo[1594]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:09:52 gcmainserv sudo[1594]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:09:52 gcmainserv sudo[1601]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:09:52 gcmainserv sudo[1601]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:09:52 gcmainserv sudo[1601]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:10:16 gcmainserv sh[856]: 2017-01-28 14:10:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:10:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:10:46 gcmainserv sh[856]: 2017-01-28 14:10:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:10:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:10:46 gcmainserv sudo[1640]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:10:46 gcmainserv sudo[1640]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:10:46 gcmainserv sudo[1640]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:10:46 gcmainserv sudo[1642]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:10:46 gcmainserv sudo[1642]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:10:46 gcmainserv sudo[1642]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:10:46 gcmainserv sudo[1643]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:10:46 gcmainserv sudo[1643]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:10:46 gcmainserv sudo[1643]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:10:52 gcmainserv sudo[1660]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:10:52 gcmainserv sudo[1660]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:10:52 gcmainserv sudo[1661]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:10:52 gcmainserv sudo[1661]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:10:52 gcmainserv sudo[1661]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:10:52 gcmainserv sudo[1660]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:10:52 gcmainserv sudo[1668]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:10:52 gcmainserv sudo[1668]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:10:52 gcmainserv sudo[1668]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:10:52 gcmainserv sh[859]: 2017-01-28 14:10:52 maasserver.regiondservices.active_discovery: [info] Active network discovery: Active scanning is not enabled on any subnet. Skipping periodic scan.
+Jan 28 14:11:16 gcmainserv sh[859]: 2017-01-28 14:11:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:11:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:11:46 gcmainserv sh[859]: 2017-01-28 14:11:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:11:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:11:46 gcmainserv sudo[1709]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:11:46 gcmainserv sudo[1709]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:11:46 gcmainserv sudo[1709]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:11:46 gcmainserv sudo[1710]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:11:46 gcmainserv sudo[1710]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:11:46 gcmainserv sudo[1710]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:11:46 gcmainserv sudo[1713]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:11:46 gcmainserv sudo[1713]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:11:46 gcmainserv sudo[1713]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:11:52 gcmainserv sudo[1727]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:11:52 gcmainserv sudo[1727]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:11:52 gcmainserv sudo[1727]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:11:52 gcmainserv sudo[1729]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:11:52 gcmainserv sudo[1729]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:11:52 gcmainserv sudo[1729]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:11:52 gcmainserv sudo[1731]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:11:52 gcmainserv sudo[1731]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:11:52 gcmainserv sudo[1731]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:12:16 gcmainserv sh[853]: 2017-01-28 14:12:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:12:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:12:46 gcmainserv sh[859]: 2017-01-28 14:12:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:12:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:12:46 gcmainserv sudo[1775]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:12:46 gcmainserv sudo[1775]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:12:46 gcmainserv sudo[1775]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:12:46 gcmainserv sudo[1779]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:12:46 gcmainserv sudo[1779]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:12:46 gcmainserv sudo[1780]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:12:46 gcmainserv sudo[1780]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:12:46 gcmainserv sudo[1779]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:12:46 gcmainserv sudo[1780]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:12:52 gcmainserv sudo[1792]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:12:52 gcmainserv sudo[1792]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:12:52 gcmainserv sudo[1792]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:12:52 gcmainserv sudo[1793]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:12:52 gcmainserv sudo[1793]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:12:52 gcmainserv sudo[1793]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:12:52 gcmainserv sudo[1798]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:12:52 gcmainserv sudo[1798]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:12:52 gcmainserv sudo[1798]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:13:16 gcmainserv sh[859]: 2017-01-28 14:13:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:13:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:13:46 gcmainserv sh[859]: 2017-01-28 14:13:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:13:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:13:46 gcmainserv sudo[1834]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:13:46 gcmainserv sudo[1834]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:13:46 gcmainserv sudo[1834]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:13:46 gcmainserv sudo[1835]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:13:46 gcmainserv sudo[1835]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:13:46 gcmainserv sudo[1835]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:13:46 gcmainserv sudo[1840]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:13:46 gcmainserv sudo[1840]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:13:46 gcmainserv sudo[1840]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:13:52 gcmainserv sudo[1852]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:13:52 gcmainserv sudo[1852]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:13:52 gcmainserv sudo[1852]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:13:52 gcmainserv sudo[1853]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:13:52 gcmainserv sudo[1853]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:13:52 gcmainserv sudo[1853]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:13:52 gcmainserv sudo[1858]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:13:52 gcmainserv sudo[1858]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:13:52 gcmainserv sudo[1858]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:14:16 gcmainserv sh[856]: 2017-01-28 14:14:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:14:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:14:46 gcmainserv sh[856]: 2017-01-28 14:14:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:14:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:14:46 gcmainserv sudo[1896]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:14:46 gcmainserv sudo[1896]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:14:46 gcmainserv sudo[1896]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:14:46 gcmainserv sudo[1898]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:14:46 gcmainserv sudo[1898]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:14:46 gcmainserv sudo[1898]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:14:46 gcmainserv sudo[1901]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:14:46 gcmainserv sudo[1901]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:14:46 gcmainserv sudo[1901]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:14:52 gcmainserv sudo[1913]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:14:52 gcmainserv sudo[1913]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:14:52 gcmainserv sudo[1913]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:14:52 gcmainserv sudo[1914]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:14:52 gcmainserv sudo[1914]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:14:52 gcmainserv sudo[1914]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:14:52 gcmainserv sudo[1916]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:14:52 gcmainserv sudo[1916]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:14:52 gcmainserv sudo[1916]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:01 gcmainserv CRON[1929]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 14:15:01 gcmainserv CRON[1930]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 14:15:01 gcmainserv CRON[1929]: pam_unix(cron:session): session closed for user root
+Jan 28 14:15:16 gcmainserv sh[859]: 2017-01-28 14:15:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:15:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:15:46 gcmainserv sh[855]: 2017-01-28 14:15:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:15:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:15:46 gcmainserv sudo[1959]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:15:46 gcmainserv sudo[1959]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:46 gcmainserv sudo[1959]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:46 gcmainserv sudo[1962]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:15:46 gcmainserv sudo[1962]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 provisioningserver.rackdservices.dhcp_probe_service: [info] Probe for external DHCP servers started on interfaces: enp0s25.
+Jan 28 14:15:46 gcmainserv sudo[1962]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:46 gcmainserv sudo[1966]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:15:46 gcmainserv sudo[1966]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:46 gcmainserv maas.import-images[905]: [0;1;39m[info] Started importing boot images.[0m
+Jan 28 14:15:46 gcmainserv maas.import-images[905]: [0;1;39m[info] Downloading image descriptions from http://localhost:5240/MAAS/images-stream/streams/v1/index.json[0m
+Jan 28 14:15:46 gcmainserv sudo[1966]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:hwe-16.04-lowlatency:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:pxelinux:i386:generic:pxe: to_add=['20160930.0'] to_remove=[]
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:grub-efi:arm64:generic:uefi: to_add=['20170125.0'] to_remove=[]
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:grub-ieee1275:ppc64el:generic:open-firmware: to_add=['20170125.0'] to_remove=[]
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:grub-efi-signed:amd64:generic:uefi: to_add=['20170125.0'] to_remove=[]
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:ga-16.04:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:hwe-16.04:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 14:15:46 gcmainserv sh[904]: 2017-01-28 14:15:46 sstreams: [info] maas:v2:download/maas:boot:ubuntu:amd64:ga-16.04-lowlatency:xenial: to_add=['20170126'] to_remove=[]
+Jan 28 14:15:46 gcmainserv maas.import-images[905]: [0;1;39m[info] Updating boot image iSCSI targets.[0m
+Jan 28 14:15:46 gcmainserv sudo[1983]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:15:46 gcmainserv sudo[1983]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:46 gcmainserv sudo[1983]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:46 gcmainserv sudo[1985]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/tgt-admin --conf /var/lib/maas/boot-resources/current/maas.tgt --update ALL[0m
+Jan 28 14:15:46 gcmainserv sudo[1985]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:114 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/ga-16.04-lowlatency/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:103 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/ga-16.04/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:102 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/generic/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:115 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-16.04-lowlatency/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:104 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-16.04/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-p/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-q/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-r/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-s/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-t/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-u/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-v/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: device_mgmt(246) sz:100 params:path=/var/lib/maas/boot-resources/snapshot-20170128-185617/ubuntu/amd64/hwe-w/xenial/daily/squashfs
+Jan 28 14:15:47 gcmainserv tgtd[879]: tgtd: bs_thread_open(409) 16
+Jan 28 14:15:47 gcmainserv sudo[1985]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:47 gcmainserv maas.import-images[905]: [0;1;39m[info] Finished importing boot images, the region does not have any new images.[0m
+Jan 28 14:15:52 gcmainserv sudo[2292]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:15:52 gcmainserv sudo[2292]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:52 gcmainserv sudo[2292]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:52 gcmainserv sudo[2294]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:15:52 gcmainserv sudo[2294]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:52 gcmainserv sudo[2294]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:52 gcmainserv sudo[2298]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:15:52 gcmainserv sudo[2298]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:15:52 gcmainserv sh[859]: 2017-01-28 14:15:52 maasserver.regiondservices.active_discovery: [info] Active network discovery: Active scanning is not enabled on any subnet. Skipping periodic scan.
+Jan 28 14:15:52 gcmainserv sudo[2298]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:15:56 gcmainserv sh[904]: 2017-01-28 14:15:56 provisioningserver.dhcp.detect: [info] External DHCP server(s) discovered on interface 'enp0s25': 10.0.0.1
+Jan 28 14:15:56 gcmainserv sh[904]: 2017-01-28 14:15:56 provisioningserver.rackdservices.dhcp_probe_service: [info] External DHCP probe complete.
+Jan 28 14:16:16 gcmainserv sh[855]: 2017-01-28 14:16:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:16:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:16:46 gcmainserv sh[855]: 2017-01-28 14:16:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:16:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:16:46 gcmainserv sudo[2340]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:16:46 gcmainserv sudo[2340]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:16:46 gcmainserv sudo[2340]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:16:46 gcmainserv sudo[2344]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:16:46 gcmainserv sudo[2344]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:16:46 gcmainserv sudo[2344]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:16:46 gcmainserv sudo[2345]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:16:46 gcmainserv sudo[2345]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:16:46 gcmainserv sudo[2345]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:16:52 gcmainserv sudo[2358]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:16:52 gcmainserv sudo[2358]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:16:52 gcmainserv sudo[2358]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:16:52 gcmainserv sudo[2360]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:16:52 gcmainserv sudo[2360]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:16:52 gcmainserv sudo[2360]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:16:52 gcmainserv sudo[2365]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:16:52 gcmainserv sudo[2365]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:16:52 gcmainserv sudo[2365]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:17:01 gcmainserv CRON[2377]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 14:17:01 gcmainserv CRON[2378]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 28 14:17:01 gcmainserv CRON[2377]: pam_unix(cron:session): session closed for user root
+Jan 28 14:17:16 gcmainserv sh[856]: 2017-01-28 14:17:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:17:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:17:46 gcmainserv sh[853]: 2017-01-28 14:17:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:17:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:17:46 gcmainserv sudo[2415]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:17:46 gcmainserv sudo[2415]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:17:46 gcmainserv sudo[2415]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:17:46 gcmainserv sudo[2416]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:17:46 gcmainserv sudo[2416]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:17:46 gcmainserv sudo[2416]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:17:46 gcmainserv sudo[2418]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:17:46 gcmainserv sudo[2418]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:17:46 gcmainserv sudo[2418]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:17:52 gcmainserv sudo[2431]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:17:52 gcmainserv sudo[2431]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:17:52 gcmainserv sudo[2431]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:17:52 gcmainserv sudo[2433]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:17:52 gcmainserv sudo[2433]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:17:52 gcmainserv sudo[2433]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:17:52 gcmainserv sudo[2438]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:17:52 gcmainserv sudo[2438]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:17:52 gcmainserv sudo[2438]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:18:16 gcmainserv sh[856]: 2017-01-28 14:18:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:18:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:18:46 gcmainserv sh[859]: 2017-01-28 14:18:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:18:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:18:46 gcmainserv sudo[2476]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:18:46 gcmainserv sudo[2476]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:18:46 gcmainserv sudo[2476]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:18:46 gcmainserv sudo[2480]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:18:46 gcmainserv sudo[2480]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:18:46 gcmainserv sudo[2481]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:18:46 gcmainserv sudo[2480]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:18:46 gcmainserv sudo[2481]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:18:46 gcmainserv sudo[2481]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:18:52 gcmainserv sudo[2493]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:18:52 gcmainserv sudo[2493]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:18:52 gcmainserv sudo[2493]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:18:52 gcmainserv sudo[2494]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:18:52 gcmainserv sudo[2494]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:18:52 gcmainserv sudo[2494]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:18:52 gcmainserv sudo[2496]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:18:52 gcmainserv sudo[2496]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:18:52 gcmainserv sudo[2496]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:19:16 gcmainserv sh[853]: 2017-01-28 14:19:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:19:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:19:46 gcmainserv sh[856]: 2017-01-28 14:19:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:19:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:19:46 gcmainserv sudo[2535]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:19:46 gcmainserv sudo[2535]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:19:46 gcmainserv sudo[2535]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:19:46 gcmainserv sudo[2537]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:19:46 gcmainserv sudo[2537]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:19:46 gcmainserv sudo[2537]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:19:46 gcmainserv sudo[2541]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:19:46 gcmainserv sudo[2541]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:19:46 gcmainserv sudo[2541]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:19:52 gcmainserv sudo[2553]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:19:52 gcmainserv sudo[2553]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:19:52 gcmainserv sudo[2553]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:19:52 gcmainserv sudo[2555]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:19:52 gcmainserv sudo[2555]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:19:52 gcmainserv sudo[2555]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:19:52 gcmainserv sudo[2561]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:19:52 gcmainserv sudo[2561]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:19:52 gcmainserv sudo[2561]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:20:01 gcmainserv CRON[2571]: pam_unix(cron:session): session opened for user smmsp by (uid=0)
+Jan 28 14:20:01 gcmainserv CRON[2572]: (smmsp) CMD (test -x /etc/init.d/sendmail && test -x /usr/share/sendmail/sendmail && test -x /usr/lib/sm.bin/sendmail && /usr/share/sendmail/sendmail cron-msp)
+Jan 28 14:20:01 gcmainserv sm-msp-queue[2591]: [0;1;31mMy unqualified host name (gcmainserv) unknown; sleeping for retry[0m
+Jan 28 14:20:16 gcmainserv sh[855]: 2017-01-28 14:20:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:20:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:20:46 gcmainserv sh[856]: 2017-01-28 14:20:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:20:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:20:46 gcmainserv sudo[2617]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:20:46 gcmainserv sudo[2617]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:20:46 gcmainserv sudo[2617]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:20:46 gcmainserv sudo[2621]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:20:46 gcmainserv sudo[2621]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:20:46 gcmainserv sudo[2621]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:20:46 gcmainserv sudo[2623]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:20:46 gcmainserv sudo[2623]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:20:46 gcmainserv sudo[2623]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:20:52 gcmainserv sudo[2635]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:20:52 gcmainserv sudo[2635]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:20:52 gcmainserv sudo[2635]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:20:52 gcmainserv sudo[2636]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:20:52 gcmainserv sudo[2636]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:20:52 gcmainserv sudo[2636]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:20:52 gcmainserv sudo[2642]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:20:52 gcmainserv sudo[2642]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:20:52 gcmainserv sh[859]: 2017-01-28 14:20:52 maasserver.regiondservices.active_discovery: [info] Active network discovery: Active scanning is not enabled on any subnet. Skipping periodic scan.
+Jan 28 14:20:52 gcmainserv sudo[2642]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:21:01 gcmainserv sm-msp-queue[2591]: [0;1;31munable to qualify my own domain name (gcmainserv) -- using short name[0m
+Jan 28 14:21:01 gcmainserv CRON[2571]: pam_unix(cron:session): session closed for user smmsp
+Jan 28 14:21:16 gcmainserv sh[856]: 2017-01-28 14:21:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:21:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:21:46 gcmainserv sh[859]: 2017-01-28 14:21:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:21:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:21:46 gcmainserv sudo[2680]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:21:46 gcmainserv sudo[2680]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:21:46 gcmainserv sudo[2680]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:21:46 gcmainserv sudo[2683]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:21:46 gcmainserv sudo[2683]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:21:46 gcmainserv sudo[2683]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:21:46 gcmainserv sudo[2685]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:21:46 gcmainserv sudo[2685]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:21:46 gcmainserv sudo[2685]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:21:52 gcmainserv sudo[2698]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:21:52 gcmainserv sudo[2698]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:21:52 gcmainserv sudo[2698]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:21:52 gcmainserv sudo[2700]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:21:52 gcmainserv sudo[2700]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:21:52 gcmainserv sudo[2700]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:21:52 gcmainserv sudo[2704]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:21:52 gcmainserv sudo[2704]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:21:52 gcmainserv sudo[2704]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:22:16 gcmainserv sh[855]: 2017-01-28 14:22:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:22:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:22:46 gcmainserv sh[855]: 2017-01-28 14:22:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:22:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:22:46 gcmainserv sudo[2744]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:22:46 gcmainserv sudo[2744]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:22:46 gcmainserv sudo[2744]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:22:46 gcmainserv sudo[2745]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:22:46 gcmainserv sudo[2746]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:22:46 gcmainserv sudo[2746]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:22:46 gcmainserv sudo[2745]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:22:46 gcmainserv sudo[2746]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:22:46 gcmainserv sudo[2745]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:22:52 gcmainserv sudo[2760]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:22:52 gcmainserv sudo[2760]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:22:52 gcmainserv sudo[2760]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:22:52 gcmainserv sudo[2761]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:22:52 gcmainserv sudo[2761]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:22:52 gcmainserv sudo[2761]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:22:52 gcmainserv sudo[2767]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:22:52 gcmainserv sudo[2767]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:22:52 gcmainserv sudo[2767]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:23:16 gcmainserv sh[856]: 2017-01-28 14:23:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:23:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:23:46 gcmainserv sh[853]: 2017-01-28 14:23:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:23:46 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:23:46 gcmainserv sudo[2804]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:23:46 gcmainserv sudo[2804]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:23:46 gcmainserv sudo[2804]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:23:46 gcmainserv sudo[2805]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:23:46 gcmainserv sudo[2805]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:23:46 gcmainserv sudo[2805]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:23:46 gcmainserv sudo[2809]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:23:46 gcmainserv sudo[2809]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:23:46 gcmainserv sudo[2809]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:23:52 gcmainserv sudo[2822]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:23:52 gcmainserv sudo[2822]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:23:52 gcmainserv sudo[2822]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:23:52 gcmainserv sudo[2824]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:23:52 gcmainserv sudo[2824]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:23:52 gcmainserv sudo[2824]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:23:52 gcmainserv sudo[2829]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:23:52 gcmainserv sudo[2829]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:23:52 gcmainserv sudo[2829]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:24:16 gcmainserv sh[855]: 2017-01-28 14:24:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:24:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:24:46 gcmainserv sh[859]: 2017-01-28 14:24:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:24:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:24:46 gcmainserv sudo[2873]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:24:46 gcmainserv sudo[2873]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:24:46 gcmainserv sudo[2873]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:24:46 gcmainserv sudo[2875]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:24:46 gcmainserv sudo[2875]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:24:46 gcmainserv sudo[2875]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:24:46 gcmainserv sudo[2878]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:24:46 gcmainserv sudo[2878]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:24:46 gcmainserv sudo[2878]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:24:52 gcmainserv sudo[2890]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:24:52 gcmainserv sudo[2890]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:24:52 gcmainserv sudo[2890]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:24:52 gcmainserv sudo[2891]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:24:52 gcmainserv sudo[2891]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:24:52 gcmainserv sudo[2891]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:24:52 gcmainserv sudo[2896]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:24:52 gcmainserv sudo[2896]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:24:52 gcmainserv sudo[2896]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:25:01 gcmainserv CRON[2909]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 28 14:25:01 gcmainserv CRON[2910]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 28 14:25:01 gcmainserv CRON[2909]: pam_unix(cron:session): session closed for user root
+Jan 28 14:25:16 gcmainserv sh[853]: 2017-01-28 14:25:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:25:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:25:42 gcmainserv systemd[1]: Reloading LSB: Apache2 web server.
+-- Subject: Unit apache2.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has begun reloading its configuration
+Jan 28 14:25:42 gcmainserv apache2[2942]:  * Reloading Apache httpd web server apache2
+Jan 28 14:25:42 gcmainserv apache2[2942]:  *
+Jan 28 14:25:42 gcmainserv systemd[1]: Reloaded LSB: Apache2 web server.
+-- Subject: Unit apache2.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has finished reloading its configuration
+-- 
+-- The result is done.
+Jan 28 14:25:46 gcmainserv sh[859]: 2017-01-28 14:25:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:25:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:25:46 gcmainserv sudo[2969]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:25:46 gcmainserv sudo[2969]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:25:46 gcmainserv sudo[2969]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:25:46 gcmainserv sudo[2970]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:25:46 gcmainserv sudo[2970]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:25:46 gcmainserv sudo[2970]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:25:46 gcmainserv sudo[2974]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:25:46 gcmainserv sudo[2974]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:25:46 gcmainserv sudo[2974]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:25:46 gcmainserv sh[904]: 2017-01-28 14:25:46 provisioningserver.rackdservices.dhcp_probe_service: [info] Probe for external DHCP servers started on interfaces: enp0s25.
+Jan 28 14:25:52 gcmainserv sudo[2995]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:25:52 gcmainserv sudo[2995]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:25:52 gcmainserv sudo[2997]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:25:52 gcmainserv sudo[2997]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:25:52 gcmainserv sudo[2997]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:25:52 gcmainserv sudo[2995]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:25:52 gcmainserv sh[859]: 2017-01-28 14:25:52 maasserver.regiondservices.active_discovery: [info] Active network discovery: Active scanning is not enabled on any subnet. Skipping periodic scan.
+Jan 28 14:25:52 gcmainserv sudo[3001]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:25:52 gcmainserv sudo[3001]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:25:52 gcmainserv sudo[3001]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:25:56 gcmainserv sh[904]: 2017-01-28 14:25:56 provisioningserver.dhcp.detect: [info] External DHCP server(s) discovered on interface 'enp0s25': 10.0.0.1
+Jan 28 14:25:56 gcmainserv sh[904]: 2017-01-28 14:25:56 provisioningserver.rackdservices.dhcp_probe_service: [info] External DHCP probe complete.
+Jan 28 14:26:16 gcmainserv sh[856]: 2017-01-28 14:26:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:26:16 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:26:46 gcmainserv sh[856]: 2017-01-28 14:26:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:26:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:26:46 gcmainserv sudo[3046]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:26:46 gcmainserv sudo[3046]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:26:46 gcmainserv sudo[3046]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:26:46 gcmainserv sudo[3047]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:26:46 gcmainserv sudo[3047]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:26:46 gcmainserv sudo[3047]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:26:46 gcmainserv sudo[3049]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:26:46 gcmainserv sudo[3049]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:26:46 gcmainserv sudo[3049]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:26:52 gcmainserv sudo[3063]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:26:52 gcmainserv sudo[3063]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:26:52 gcmainserv sudo[3063]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:26:52 gcmainserv sudo[3064]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:26:52 gcmainserv sudo[3064]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:26:52 gcmainserv sudo[3064]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:26:52 gcmainserv sudo[3068]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:26:52 gcmainserv sudo[3068]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:26:52 gcmainserv sudo[3068]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:27:16 gcmainserv sh[856]: 2017-01-28 14:27:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:27:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:27:46 gcmainserv sh[855]: 2017-01-28 14:27:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:27:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:27:46 gcmainserv sudo[3111]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:27:46 gcmainserv sudo[3111]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:27:46 gcmainserv sudo[3111]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:27:46 gcmainserv sudo[3112]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:27:46 gcmainserv sudo[3112]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:27:46 gcmainserv sudo[3112]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:27:46 gcmainserv sudo[3114]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:27:46 gcmainserv sudo[3114]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:27:46 gcmainserv sudo[3114]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:27:52 gcmainserv sudo[3128]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:27:52 gcmainserv sudo[3128]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:27:52 gcmainserv sudo[3128]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:27:52 gcmainserv sudo[3131]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:27:52 gcmainserv sudo[3131]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:27:52 gcmainserv sudo[3131]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:27:52 gcmainserv sudo[3135]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:27:52 gcmainserv sudo[3135]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:27:52 gcmainserv sudo[3135]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:28:16 gcmainserv sh[859]: 2017-01-28 14:28:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:28:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:28:46 gcmainserv sh[853]: 2017-01-28 14:28:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:28:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:28:46 gcmainserv sudo[3175]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:28:46 gcmainserv sudo[3175]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:28:46 gcmainserv sudo[3175]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:28:46 gcmainserv sudo[3177]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:28:46 gcmainserv sudo[3177]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:28:46 gcmainserv sudo[3179]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:28:46 gcmainserv sudo[3177]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:28:46 gcmainserv sudo[3179]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:28:46 gcmainserv sudo[3179]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:28:52 gcmainserv sudo[3193]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:28:52 gcmainserv sudo[3193]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:28:52 gcmainserv sudo[3193]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:28:52 gcmainserv sudo[3194]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:28:52 gcmainserv sudo[3194]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:28:52 gcmainserv sudo[3194]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:28:52 gcmainserv sudo[3198]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:28:52 gcmainserv sudo[3198]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:28:52 gcmainserv sudo[3198]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:29:16 gcmainserv sh[859]: 2017-01-28 14:29:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:29:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:29:46 gcmainserv sh[853]: 2017-01-28 14:29:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:29:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:29:46 gcmainserv sudo[3237]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:29:46 gcmainserv sudo[3237]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:29:46 gcmainserv sudo[3237]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:29:46 gcmainserv sudo[3240]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:29:46 gcmainserv sudo[3240]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:29:46 gcmainserv sudo[3240]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:29:46 gcmainserv sudo[3243]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:29:46 gcmainserv sudo[3243]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:29:46 gcmainserv sudo[3243]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:29:52 gcmainserv sudo[3254]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:29:52 gcmainserv sudo[3254]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:29:52 gcmainserv sudo[3254]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:29:52 gcmainserv sudo[3255]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:29:52 gcmainserv sudo[3255]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:29:52 gcmainserv sudo[3255]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:29:52 gcmainserv sudo[3257]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:29:52 gcmainserv sudo[3257]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:29:52 gcmainserv sudo[3257]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:30:16 gcmainserv sh[853]: 2017-01-28 14:30:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:30:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:30:46 gcmainserv sh[855]: 2017-01-28 14:30:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:30:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:30:46 gcmainserv sudo[3297]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:30:46 gcmainserv sudo[3297]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:30:46 gcmainserv sudo[3298]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:30:46 gcmainserv sudo[3298]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:30:46 gcmainserv sudo[3298]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:30:46 gcmainserv sudo[3297]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:30:46 gcmainserv sudo[3304]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:30:46 gcmainserv sudo[3304]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:30:46 gcmainserv sudo[3304]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:30:52 gcmainserv sudo[3314]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:30:52 gcmainserv sudo[3314]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:30:52 gcmainserv sudo[3314]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:30:52 gcmainserv sudo[3315]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:30:52 gcmainserv sudo[3315]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:30:52 gcmainserv sudo[3315]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:30:52 gcmainserv sh[859]: 2017-01-28 14:30:52 maasserver.regiondservices.active_discovery: [info] Active network discovery: Active scanning is not enabled on any subnet. Skipping periodic scan.
+Jan 28 14:30:52 gcmainserv sudo[3321]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:30:52 gcmainserv sudo[3321]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:30:52 gcmainserv sudo[3321]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:31:16 gcmainserv sh[859]: 2017-01-28 14:31:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:31:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:31:46 gcmainserv sh[859]: 2017-01-28 14:31:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:31:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:31:46 gcmainserv sudo[3358]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:31:46 gcmainserv sudo[3358]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:31:46 gcmainserv sudo[3358]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:31:46 gcmainserv sudo[3360]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:31:46 gcmainserv sudo[3360]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:31:46 gcmainserv sudo[3360]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:31:46 gcmainserv sudo[3363]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:31:46 gcmainserv sudo[3363]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:31:46 gcmainserv sudo[3363]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:31:52 gcmainserv sudo[3377]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:31:52 gcmainserv sudo[3377]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:31:52 gcmainserv sudo[3377]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:31:52 gcmainserv sudo[3379]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:31:52 gcmainserv sudo[3379]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:31:52 gcmainserv sudo[3379]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:31:52 gcmainserv sudo[3383]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:31:52 gcmainserv sudo[3383]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:31:52 gcmainserv sudo[3383]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:32:16 gcmainserv sh[855]: 2017-01-28 14:32:16 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:32:15 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:32:46 gcmainserv sh[855]: 2017-01-28 14:32:46 twisted.python.log: [info] ::1 - - [28/Jan/2017:20:32:45 +0000] "GET /MAAS/rpc/ HTTP/1.0" 200 384 "-" "provisioningserver.rpc.clusterservice.ClusterClientService"
+Jan 28 14:32:46 gcmainserv sudo[3426]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd[0m
+Jan 28 14:32:46 gcmainserv sudo[3426]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:32:46 gcmainserv sudo[3426]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:32:46 gcmainserv sudo[3428]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status tgt[0m
+Jan 28 14:32:46 gcmainserv sudo[3428]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:32:46 gcmainserv sudo[3428]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:32:46 gcmainserv sudo[3430]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-dhcpd6[0m
+Jan 28 14:32:46 gcmainserv sudo[3430]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:32:46 gcmainserv sudo[3430]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:32:52 gcmainserv sudo[3441]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status bind9[0m
+Jan 28 14:32:52 gcmainserv sudo[3441]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:32:52 gcmainserv sudo[3441]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:32:52 gcmainserv sudo[3442]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status ntp[0m
+Jan 28 14:32:52 gcmainserv sudo[3442]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:32:52 gcmainserv sudo[3442]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:32:52 gcmainserv sudo[3447]: [0;1;39m    maas : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/systemctl status maas-proxy[0m
+Jan 28 14:32:52 gcmainserv sudo[3447]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan 28 14:32:52 gcmainserv sudo[3447]: pam_unix(sudo:session): session closed for user root
+Jan 28 14:33:02 gcmainserv systemd[1]: Reloading LSB: Apache2 web server.
+-- Subject: Unit apache2.service has begun reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has begun reloading its configuration
+Jan 28 14:33:02 gcmainserv apache2[3463]:  * Reloading Apache httpd web server apache2
+Jan 28 14:33:02 gcmainserv apache2[3463]:  *
+Jan 28 14:33:02 gcmainserv apache2[3463]:  * The apache2 configtest failed. Not doing anything.
+Jan 28 14:33:02 gcmainserv apache2[3463]: Output of config test was:
+Jan 28 14:33:02 gcmainserv apache2[3463]: AH00526: Syntax error on line 38 of /etc/apache2/sites-enabled/gcmain.conf:
+Jan 28 14:33:02 gcmainserv apache2[3463]: <Directory> directive requires additional arguments
+Jan 28 14:33:02 gcmainserv apache2[3463]: Action 'configtest' failed.
+Jan 28 14:33:02 gcmainserv apache2[3463]: The Apache error log may have more information.
+Jan 28 14:33:02 gcmainserv systemd[1]: [0;1;39mapache2.service: Control process exited, code=exited status=1[0m
+Jan 28 14:33:02 gcmainserv systemd[1]: [0;1;31mReload failed for LSB: Apache2 web server.[0m
+-- Subject: Unit apache2.service has finished reloading its configuration
+-- Defined-By: systemd
+-- Support: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+-- 
+-- Unit apache2.service has finished reloading its configuration
+-- 
+-- The result is failed.

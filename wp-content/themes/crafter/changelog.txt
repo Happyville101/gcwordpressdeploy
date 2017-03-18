@@ -1,0 +1,64 @@
+* 1.0.10 - 04/01/2017
+====================
+- Removed: Redirection after theme activation
+- Removed: AJAX function for sortable sections
+- Removed: Documentation within the admin panel
+- Removed: Demo content
+
+
+* 1.0.9 - 27/12/2016
+====================
+- Improved: RTL support
+- Moved: Code for adding header support
+
+
+* 1.0.8 - 26/12/2016
+====================
+- Fixed: JS error on Customizer
+- Improved: RTL support
+
+
+* 1.0.7 - 20/12/2016
+====================
+- Fixed: Typos on description
+
+
+* 1.0.6 - 30/11/2016
+====================
+- Removed: Sanitize function
+- Removed: Unuesed widget
+- Removed: More Themes section
+- Changed: Demo content
+
+
+* 1.0.5 - 21/11/2016
+====================
+- Changed: Content creation
+
+
+* 1.0.4 - 08/11/2016
+====================
+- Fixed: Author and comments on blog posts
+- Changed: Icons for services
+- Changed: PRO button
+
+
+* 1.0.3 - 21/09/2016
+====================
+- Removed: Unused updater class
+- Removed: Duplicatd style.css
+
+
+* 1.0.2 - 21/09/2016
+====================
+- Changed: Front Page is the blog by default
+
+
+* 1.0.1 - 05/08/2016
+====================
+- Improvements
+
+
+* 1.0.0 - 14/04/2016
+====================
+- Released

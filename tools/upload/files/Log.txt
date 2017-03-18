@@ -1,0 +1,560 @@
+log.txt for X-Plane 10.51r2 (build 105101 64-bit)
+ compiled on Oct 18 2016 20:10:54
+X-Plane started on Sun Mar  5 10:56:15 2017
+
+This log file is generated automatically by Laminar Research applications and contains diagnostics about your graphics hardware, installation, and any error conditions.
+If you need to contact tech support or file a bug, please send us this file. NOTE: this file is rewritten every time you start ANY of your X-System applications.
+
+Mac OS X: Version 10.12.3 (Build 16D32)
+CPU type: Intel(R) Core(TM) i3 CPU         540  @ 3.07GHz CPU speed (mhz): 3060 Bus speed (mhz): 5866 RAM (MB): 4096
+
+X-System folder:'/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/', case sensitive=0
+
+
+OpenGL Vendor    : ATI Technologies Inc.
+OpenGL Render    : ATI Radeon HD 4670 OpenGL Engine
+OpenGL Version   : 2.1 ATI-10.2.12 (210/0)
+OpenGL Extensions: GL_ARB_color_buffer_float GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_draw_buffers GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_instanced_arrays GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_provoking_vertex GL_ARB_seamless_cube_map GL_ARB_shader_objects GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shadow GL_ARB_shadow_ambient GL_ARB_sync GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_float GL_ARB_texture_mirrored_repeat GL_ARB_texture_non_power_of_two GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_transpose_matrix GL_ARB_vertex_array_bgra GL_ARB_vertex_blend GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_window_pos GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_clip_volume_hint GL_EXT_compiled_vertex_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_draw_buffers2 GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_s3tc GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_rectangle GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_APPLE_aux_depth_stencil GL_APPLE_client_storage GL_APPLE_element_array GL_APPLE_fence GL_APPLE_float_pixels GL_APPLE_flush_buffer_range GL_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_packed_pixels GL_APPLE_pixel_buffer GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_specular_vector GL_APPLE_texture_range GL_APPLE_transform_hint GL_APPLE_vertex_array_object GL_APPLE_vertex_array_range GL_APPLE_vertex_point_size GL_APPLE_vertex_program_evaluators GL_APPLE_ycbcr_422 GL_ATI_blend_equation_separate GL_ATI_blend_weighted_minmax GL_ATI_separate_stencil GL_ATI_texture_compression_3dc GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_ATI_texture_mirror_once GL_IBM_rasterpos_clip GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_fog_distance GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_barrier GL_SGI_color_matrix GL_SGIS_generate_mipmap GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod 
+
+threaded_avail   : 1	aniso_avail      : 1	timer_avail      : 1	sync/fence       : 1
+pbo_avail        : 1	frameblit_avail  : 1
+gpu_shad4_avail  : 1	shad_lod_avail   : 1	array_tex_avail  : 1	texture_rg       : 1
+tex_float_avail  : 1	seamless_avail   : 1	drawbuf2_avail   : 1	packed_stencil   : 1
+framebuffer_srgb : 1	copy_buf_avail   : 0	ubo_avail        : 0	gshader_avail    : 1
+base_vert_avail  : 1
+instance_avail   : 1	dis_fog_avail    : 1	pinned_avail     : 0	debug_avail      : 0
+max tex units    : 8 (16/8)
+max iso filtering: 16.000000
+max texture size : 8192 (hardware limit)
+max point size   : 64.000000
+idx in vram      : 1
+GLSL Version     :1.20/120
+first-gen shaders: 0
+(16/3072/128/16/16/3072/3072)
+This video card is: DX10 or 11 - With instancing
+CPU count        : 4
+OpenAL devices: Built-in Output
+Open AL default device:Built-in Output
+OpenAL vendor	: Apple Computer Inc.
+OpenAL renderer  : Software
+OpenAL version   : 1.1
+OpenAL hardware  : Built-in Output
+OpenAL extensions: ALC_EXT_CAPTURE ALC_ENUMERATION_EXT ALC_EXT_MAC_OSX ALC_EXT_ASA ALC_EXT_ASA_DISTORTION ALC_EXT_ASA_ROGER_BEEP AL_EXT_OFFSET AL_EXT_LINEAR_DISTANCE AL_EXT_EXPONENT_DISTANCE AL_EXT_float32 AL_EXT_STATIC_BUFFER AL_EXT_SOURCE_NOTIFICATIONS AL_EXT_SOURCE_SPATIALIZATION
+
+Fetching plugins for /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins
+
+Loaded: /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/PluginAdmin/mac.xpl (xpsdk.examples.pluginadmin).
+
+Loaded: /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/mac.xpl (Marginal.AutoGate).
+
+PythonInterfaceVersionNumber = 2.73.06
+Loaded: /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/PythonInterface-2/64/mac.xpl (sandybarbour.projects.pythoninterface).
+
+HSI start
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/xfmc.png
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/athr_lit.png
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/exec_lit.png
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/ap_lit.png
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/lnav_lit.png
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/vnav_lit.png
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/xfmc_0_lit.png
+Loaded: /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/mac.xpl (x-fmc.com).
+
+Xchecklist: ver 1.17 build Apr 11 2016 17:26:27
+Loaded: /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/Xchecklist/mac.xpl (Michal_Bill.Example.Xchecklist).
+
+Loaded: /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/smartcopilot2/mac.xpl (Rhard.SmartCopilot.Plugin).
+
+[x52control/mac.xpl]: It is illegal to register a command starting with sim/
+Loaded: /Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/x52control/mac.xpl (copai.equipment.x52control).
+
+Initializing off screen memory.
+Initializing off screen memory complete.
+I found the following scenery packages (prioritized in this order):
+  0 Custom Scenery/KSFO-SanFranciscoV2/
+  1 Custom Scenery/KOSH - Wittman Regional (airshow version)/
+  2 Custom Scenery/KBOS-BostonLoganInternational1/
+  3 Custom Scenery/zzz_Treelines_Farms_North_America_v2/
+  4 Custom Scenery/Chicago/
+  5 Custom Scenery/XP10_HD_Mesh_V3_+40-090-North_America/
+  6 Custom Scenery/Dulles IAD v2.2/
+  7 Custom Scenery/KMDW Chicago Midway/
+  8 Custom Scenery/KMDW Ortho/
+  9 Custom Scenery/w2xp_America_aerials/
+ 10 Custom Scenery/w2xp_America_net/
+ 11 Custom Scenery/world-models-1/
+ 12 Custom Scenery/w2xp_America/
+ 13 Custom Scenery/Bolingbrook's Clow Intl (SC)/
+ 14 Custom Scenery/world-models/
+ 15 Custom Scenery/MeigsAirportOrthos/
+ 16 Custom Scenery/MisterX_Library/
+ 17 Custom Scenery/ruscenery/
+ 18 Custom Scenery/KPHX - Phoenix Sky Harbor Intl 1/
+ 19 Custom Scenery/Chicago O'Hare KORD 2.0/
+ 20 Custom Scenery/Chicago Orthophotos 2.0/
+ 21 Custom Scenery/Chicago zExclusion/
+ 22 Custom Scenery/Custom Scenery/
+ 23 Custom Scenery/NAPS_library/
+ 24 Custom Scenery/R2_Library/
+ 25 Custom Scenery/RE_Library/
+ 26 Custom Scenery/Resources/
+ 27 Custom Scenery/THE-FAIB Aircraft Library/
+ 28 Custom Scenery/THE-FRUIT-STAND Aircraft Library v2.2/
+ 29 Custom Scenery/The_Handy_Objects_Library/
+ 30 Custom Scenery/XAirportScenery/
+ 31 Custom Scenery/Aerosoft - EBBR Brussels/
+ 32 Custom Scenery/Aerosoft - EDDF Frankfurt/
+ 33 Custom Scenery/Aerosoft - EDLP Paderborn-Lippstadt/
+ 34 Custom Scenery/Aerosoft - EGBB Birmingham/
+ 35 Custom Scenery/Aerosoft - EGKK London-Gatwick/
+ 36 Custom Scenery/Aerosoft - EGLL Heathrow/
+ 37 Custom Scenery/Aerosoft - EGPF Glasgow/
+ 38 Custom Scenery/Aerosoft - EGSS London-Stansted/
+ 39 Custom Scenery/Aerosoft - LEBL Barcelona/
+ 40 Custom Scenery/Aerosoft - LEMD Madrid/
+ 41 Custom Scenery/Aerosoft - LFMN Nice Cote d Azur X/
+ 42 Custom Scenery/Aerosoft - LFPG Paris CDG/
+ 43 Custom Scenery/Aerosoft - LFPO Paris Orly/
+ 44 Custom Scenery/Aerosoft - LPFR Faro/
+ 45 Custom Scenery/Aerosoft - LSGG Genf/
+ 46 Custom Scenery/Meigs McCormickPlace&SoldierField02/
+ 47 Custom Scenery/LOWI Demo Area/
+ 48 Custom Scenery/Global Airports/
+ 49 Custom Scenery/KSEA Demo Area/
+ 50 Custom Scenery/KSEA Demo Terrain/
+ 51 Custom Scenery/BS2001 Object Library/
+ 52 Custom Scenery/RD_Library/
+ 53 Custom Scenery/world-models-master/
+ 54 Custom Scenery/ff_library/
+ 55 Custom Scenery/OpenSceneryX/
+ 56 Custom Scenery/3D_people_library/
+ 57 Global Scenery/Bug Fixes/
+ 58 Global Scenery/Extra Islands/
+ 59 Global Scenery/Recuts 1030/
+ 60 Global Scenery/X-Plane 10 Global Scenery/
+ 61 Resources/default scenery/1000 autogen/
+ 62 Resources/default scenery/1000 decals/
+ 63 Resources/default scenery/1000 forests/
+ 64 Resources/default scenery/1000 roads/
+ 65 Resources/default scenery/1000 urban terrain/
+ 66 Resources/default scenery/1000 world terrain/
+ 67 Resources/default scenery/700 roads/
+ 68 Resources/default scenery/900 beaches/
+ 69 Resources/default scenery/900 europe objects/
+ 70 Resources/default scenery/900 forests/
+ 71 Resources/default scenery/900 roads/
+ 72 Resources/default scenery/900 us objects/
+ 73 Resources/default scenery/900 world object placeholders/
+ 74 Resources/default scenery/airport decals/
+ 75 Resources/default scenery/airport scenery/
+ 76 Resources/default scenery/default apt dat/
+ 77 Resources/default scenery/default atc/
+ 78 Resources/default scenery/sim objects/
+
+0:00:00.000 D/HID: HID Bridge Running
+Fetching plugins for Custom Scenery/Chicago O'Hare KORD 2.0/plugins
+
+Loaded: Custom Scenery/Chicago O'Hare KORD 2.0/plugins/GroundTraffic/mac.xpl (Marginal.GroundTraffic.Chicago O'Hare KORD 2.0).
+
+GroundTraffic: Note: Ignoring duplicate waypoint at line 496
+GroundTraffic: Note: Ignoring duplicate waypoint at line 525
+GroundTraffic: Note: Ignoring duplicate waypoint at line 555
+GroundTraffic: Note: Ignoring duplicate waypoint at line 634
+ATC audio initialized.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+0:00:00.000 I/REN: Setting |draw view indicator read from prefs as 0.
+0:00:00.000 I/REN: Setting |dim under high G-load or hypoxia read from prefs as 1.
+0:00:00.000 I/REN: Setting |draw hi-res planet textures from orbit read from prefs as 0.
+0:00:00.000 I/REN: Setting |draw forest fires and balloons read from prefs as 0.
+0:00:00.000 I/REN: Setting |draw birds and deer in nice weather read from prefs as 0.
+0:00:00.000 I/REN: Setting |draw aircraft carriers and frigates read from prefs as 0.
+0:00:00.000 I/REN: Setting |draw Aurora Borealis read from prefs as 0.
+0:00:00.000 I/REN: Setting |number of trees read from prefs as 1.
+0:00:00.000 I/REN: Setting |number of objects read from prefs as 3.
+0:00:00.000 I/REN: Setting |number of roads read from prefs as 2.
+0:00:00.000 I/REN: Setting |number of cars read from prefs as 2.
+0:00:00.000 I/REN: Setting |world detail distance read from prefs as 1.
+0:00:00.000 I/REN: Setting |runway and taxiway smoothness and lighting read from prefs as 0.
+0:00:00.000 I/REN: Setting |water reflection detail read from prefs as 1.
+0:00:00.000 I/REN: Setting compress textures to save VRAM read from prefs as 1.
+0:00:00.000 I/REN: Setting |runways follow terrain contours read from prefs as 1.
+0:00:00.000 I/REN: Setting |draw volumetric fog read from prefs as 0.
+0:00:00.000 I/REN: Setting |draw per pixel lighting read from prefs as 1.
+0:00:00.000 I/REN: Setting |HDR rendering read from prefs as 0.
+0:00:00.000 I/REN: Setting |shadow detail read from prefs as 0.
+0:00:00.000 I/REN: Setting |atmospheric scattering read from prefs as 0.
+0:00:00.000 I/REN: Setting |HDR anti-aliasing read from prefs as 0.
+0:00:00.000 I/REN: Setting |3-D bump-maps read from prefs as 1.
+0:00:00.000 I/REN: Setting |gritty detail textures read from prefs as 1.
+0:00:00.000 I/REN: Setting |Extended DSF Scenery read from prefs as 0.
+0:00:00.000 I/REN: Setting |draw parked aircraft at airports read from prefs as 0.
+0:00:00.000 I/NET: Skipping interface lo0, flags=8049
+0:00:00.000 I/NET: en1    : 192.168.1.3
+0:00:00.000 I/NET: en1    : 2601:249:100:daa:498:3ea7:4d1d:ad9d
+0:00:00.000 I/NET: en1    : 2601:249:100:daa:9b8:b586:e30e:5867
+0:00:00.000 I/NET: ham0   : 25.8.178.167
+0:00:00.000 I/NET: ham0   : 2620:9b::1908:b2a7
+0:00:00.000 I/NET: utun0  : fd1e:aa28:e4ff:5ad1:1d46:fdd5:556e:a3cd
+0:00:00.000 D/HID: Hardware ADDED(06a3, 0762) - Saitek X52 Pro Flight Control System at path USB_06a3_0762_none_fa130000_0001_0004
+0:00:00.000 I/JOY: REGISTER Joystick device: Saitek X52 Pro Flight Control System - VID:1699PID:1890, this is a familiar device.
+0:00:00.000 D/HID: 	AXIS Added Index: 0 (HID_Page_GenericDesktop/HID_Usage_GD_X) for handle: 0x6000000ef680. Min/Max 0 - 1023
+0:00:00.000 D/HID: 	AXIS Added Index: 1 (HID_Page_GenericDesktop/HID_Usage_GD_Y) for handle: 0x6000000ef680. Min/Max 0 - 1023
+0:00:00.000 D/HID: 	AXIS Added Index: 2 (HID_Page_GenericDesktop/HID_Usage_GD_Rz) for handle: 0x6000000ef680. Min/Max 0 - 1023
+0:00:00.000 D/HID: 	AXIS Added Index: 3 (HID_Page_GenericDesktop/HID_Usage_GD_Z) for handle: 0x6000000ef680. Min/Max 0 - 255
+0:00:00.000 D/HID: 	AXIS Added Index: 4 (HID_Page_GenericDesktop/HID_Usage_GD_Rx) for handle: 0x6000000ef680. Min/Max 0 - 255
+0:00:00.000 D/HID: 	AXIS Added Index: 5 (HID_Page_GenericDesktop/HID_Usage_GD_Ry) for handle: 0x6000000ef680. Min/Max 0 - 255
+0:00:00.000 D/HID: 	AXIS Added Index: 6 (HID_Page_GenericDesktop/HID_Usage_GD_Slider) for handle: 0x6000000ef680. Min/Max 0 - 255
+0:00:00.000 D/HID: 	HATSWITCH Added Index: 0 (HID_Page_GenericDesktop/HID_Usage_GD_Hatswitch) for handle: 0x6000000ef680. It has 8 positions.
+0:00:00.000 D/HID: 	AXIS Added Index: 7 (HID_Page_Game/HID_Usage_Game_MoveRightOrLeft) for handle: 0x6000000ef680. Min/Max 0 - 15
+0:00:00.000 D/HID: 	AXIS Added Index: 8 (HID_Page_Game/HID_Usage_Game_MoveUpOrDown) for handle: 0x6000000ef680. Min/Max 0 - 15
+0:00:00.000 D/HID: 	BUTTON Added Index: 0 (HID_Page_Button/01) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 1 (HID_Page_Button/02) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 2 (HID_Page_Button/03) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 3 (HID_Page_Button/04) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 4 (HID_Page_Button/05) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 5 (HID_Page_Button/06) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 6 (HID_Page_Button/07) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 7 (HID_Page_Button/08) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 8 (HID_Page_Button/09) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 9 (HID_Page_Button/0a) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 10 (HID_Page_Button/0b) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 11 (HID_Page_Button/0c) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 12 (HID_Page_Button/0d) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 13 (HID_Page_Button/0e) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 14 (HID_Page_Button/0f) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 15 (HID_Page_Button/10) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 16 (HID_Page_Button/11) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 17 (HID_Page_Button/12) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 18 (HID_Page_Button/13) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 19 (HID_Page_Button/14) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 20 (HID_Page_Button/15) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 21 (HID_Page_Button/16) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 22 (HID_Page_Button/17) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 23 (HID_Page_Button/18) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 24 (HID_Page_Button/19) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 25 (HID_Page_Button/1a) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 26 (HID_Page_Button/1b) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 27 (HID_Page_Button/1c) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 28 (HID_Page_Button/1d) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 29 (HID_Page_Button/1e) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 30 (HID_Page_Button/1f) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 31 (HID_Page_Button/20) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 32 (HID_Page_Button/21) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 33 (HID_Page_Button/22) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 34 (HID_Page_Button/23) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 35 (HID_Page_Button/24) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 36 (HID_Page_Button/25) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 37 (HID_Page_Button/26) for handle: 0x6000000ef680
+0:00:00.000 D/HID: 	BUTTON Added Index: 38 (HID_Page_Button/27) for handle: 0x6000000ef680
+0:00:00.000 D/HID: END HARDWARE
+0:00:00.000 E/JOY: UNCALIBRATED AXIS DETECTED: Saitek X52 Pro Flight Control System - VID:1699PID:1890 Axis #4: device min/max (0.000000 - 255.000000) calib (0.466667 - 0.466667)
+0:00:00.000 E/JOY: UNCALIBRATED AXIS DETECTED: Saitek X52 Pro Flight Control System - VID:1699PID:1890 Axis #5: device min/max (0.000000 - 255.000000) calib (0.521569 - 0.521569)
+0:00:00.000 E/JOY: UNCALIBRATED AXIS DETECTED: Saitek X52 Pro Flight Control System - VID:1699PID:1890 Axis #7: device min/max (0.000000 - 15.000000) calib (0.000000 - 0.000000)
+0:00:00.000 E/JOY: UNCALIBRATED AXIS DETECTED: Saitek X52 Pro Flight Control System - VID:1699PID:1890 Axis #8: device min/max (0.000000 - 15.000000) calib (0.000000 - 0.000000)
+0:00:00.000 D/HID: Hardware ADDED(044f, b679) - T-Rudder at path USB_044f_b679_none_fd143000_0001_0004
+0:00:00.000 I/JOY: REGISTER Joystick device: T-Rudder - VID:1103PID:46713, this is a familiar device.
+0:00:00.000 D/HID: 	AXIS Added Index: 0 (HID_Page_GenericDesktop/HID_Usage_GD_X) for handle: 0x6080000f1400. Min/Max 0 - 1023
+0:00:00.000 D/HID: 	AXIS Added Index: 1 (HID_Page_GenericDesktop/HID_Usage_GD_Y) for handle: 0x6080000f1400. Min/Max 0 - 1023
+0:00:00.000 D/HID: 	AXIS Added Index: 2 (HID_Page_GenericDesktop/HID_Usage_GD_Z) for handle: 0x6080000f1400. Min/Max 0 - 1023
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: 	SKIPPED (ff00/20) for handle: 0x6080000f1400 because of usage page.
+0:00:00.000 D/HID: END HARDWARE
+0:00:58.161 I/ACF: Loading airplane number 0 with Aircraft/General Aviation/Cessna 172SP/Cessna_172SP.acf
+0:00:58.161 I/GPS: Added 19186 airports to the GPS database
+0:00:58.161 I/FLT: Init dat_p0 type:loc_tak apt:KORD rwy:10C
+0:00:58.161 I/SCN: DSF load time: 595725 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+41-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 610962 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+41-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 4615271 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 4722130 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 34474878 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+41-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 34948705 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+41-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 10863808 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+41-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 4107512 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+41-087.dsf (114980 tris)
+0:00:58.161 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-087.dsf has a number of problems with its road network: 7 doubled nodes, 0 direction reverses, 0 short segments, 3 roads deleted.
+0:00:58.161 I/SCN: DSF load time: 15661020 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+41-089.dsf (170167 tris)
+0:00:58.161 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-089.dsf has a number of problems with its road network: 16 doubled nodes, 1 direction reverses, 0 short segments, 9 roads deleted.
+0:00:58.161 I/SCN: DSF load time: 29811 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+42-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 204933 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 1434513 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+42-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 589604 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+42-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 1243706 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+42-087.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 1347098 for file Custom Scenery/w2xp_America_aerials/Earth nav data/+40-090/+42-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 771364 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 1543087 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+42-087.dsf (83641 tris)
+0:00:58.161 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-087.dsf has a number of problems with its road network: 3 doubled nodes, 1 direction reverses, 0 short segments, 1 roads deleted.
+0:00:58.161 I/SCN: DSF load time: 1904088 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+42-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 259793 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+42-089.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 3216474 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+42-089.dsf (206263 tris)
+0:00:58.161 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-089.dsf has a number of problems with its road network: 21 doubled nodes, 0 direction reverses, 0 short segments, 7 roads deleted.
+0:00:58.161 I/SCN: DSF load time: 67831 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 4499588 for file Custom Scenery/Chicago/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 5485349 for file Custom Scenery/KMDW Chicago Midway/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 2448730 for file Custom Scenery/KMDW Ortho/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 1037306 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 4797967 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 677226 for file Custom Scenery/MeigsAirportOrthos/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 22900303 for file Custom Scenery/Chicago O'Hare KORD 2.0/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 400094 for file Custom Scenery/Chicago Orthophotos 2.0/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 391958 for file Custom Scenery/Chicago zExclusion/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 319807 for file Custom Scenery/Meigs McCormickPlace&SoldierField02/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 2048971 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+41-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 6462323 for file Global Scenery/Recuts 1030/Earth nav data/+40-090/+41-088.dsf (190761 tris)
+0:00:58.161 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-088.dsf has a number of problems with its road network: 54 doubled nodes, 3 direction reverses, 0 short segments, 36 roads deleted.
+0:00:58.161 I/SCN: DSF load time: 105188 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+42-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 174274 for file Custom Scenery/Chicago/Earth nav data/+40-090/+42-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 571807 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 2246681 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+42-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 64443 for file Custom Scenery/Chicago O'Hare KORD 2.0/Earth nav data/+40-090/+42-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 52457 for file Custom Scenery/Chicago Orthophotos 2.0/Earth nav data/+40-090/+42-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 479210 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+42-088.dsf (0 tris)
+0:00:58.161 I/SCN: DSF load time: 1629704 for file Global Scenery/Recuts 1030/Earth nav data/+40-090/+42-088.dsf (87250 tris)
+0:00:58.161 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-088.dsf has a number of problems with its road network: 24 doubled nodes, 2 direction reverses, 0 short segments, 17 roads deleted.
+0:04:08.562 I/ACF: Loading airplane number 1 with Aircraft/Helicopters/Robinson R22 Beta/Robinson R22 Beta.acf
+0:04:08.562 I/FLT: Init dat_p1 type:loc_general_area lat:42.333335 lon:-88.522154 ele(ft):2424.249743 psi:46.019936 spd(kts):38.721663
+0:04:08.562 I/ACF: Loading airplane number 2 with Aircraft/General Aviation/Baron B58/Baron_58.acf
+0:04:08.562 I/FLT: Init dat_p2 type:loc_general_area lat:41.534274 lon:-88.727488 ele(ft):538.833502 psi:276.335388 spd(kts):91.360726
+0:04:08.562 I/ACF: Loading airplane number 3 with Aircraft/General Aviation/Cessna 172SP/Cessna_172SP.acf
+0:04:08.562 I/FLT: Init dat_p3 type:loc_general_area lat:42.638434 lon:-88.409709 ele(ft):3081.856098 psi:25.293724 spd(kts):121.635815
+0:04:08.562 I/ACF: Loading airplane number 4 with Aircraft/Heavy Metal/B747-400 United/747-400 United.acf
+0:04:08.562 I/FLT: Init dat_p4 type:loc_general_area lat:42.852863 lon:-87.839926 ele(ft):31142.876330 psi:310.096069 spd(kts):172.186293
+0:04:08.562 I/ACF: Loading airplane number 5 with Aircraft/Helicopters/Bell 206/Jetranger.acf
+0:04:08.562 I/FLT: Init dat_p5 type:loc_general_area lat:41.217582 lon:-87.904351 ele(ft):9070.740616 psi:64.539200 spd(kts):19.329080
+/Users/MelissaDeegan/Documents/Seth Documents/X-Plane 10/Resources/plugins/XFMC/Textures/xfmc_0_lit.png
+AutoGate: Can't open WAV file.
+GroundTraffic: Can't find object or train "RescueX/trains/Straba_Ka_head.obj"
+0:05:10.964 I/FLT: Init dat_p0 type:loc_ram apt:KORD start at:Gen Av
+GroundTraffic: Note: Ignoring duplicate waypoint at line 496
+GroundTraffic: Note: Ignoring duplicate waypoint at line 525
+GroundTraffic: Note: Ignoring duplicate waypoint at line 555
+GroundTraffic: Note: Ignoring duplicate waypoint at line 634
+GroundTraffic: Can't find object or train "RescueX/trains/Straba_Ka_head.obj"
+0:06:31.128 I/ATC: Airport flow changed at KRFD!
+CurFlow: NORTHERLY ATC Flow NewFlow: SOUTHERLY ATC Flow
+0:06:31.128 I/ATC: Changing KRFD CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KRFD. Advancing...
+0:06:31.128 I/ATC: Changing KRFD CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KRFD. Advancing...
+0:06:31.128 I/ATC: Changing KRFD CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KPWK!
+CurFlow: AUTOGEN: North NewFlow: AUTOGEN: South
+0:06:31.128 I/ATC: Changing KPWK CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KPWK. Advancing...
+0:06:31.128 I/ATC: Changing KPWK CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KPWK. Advancing...
+0:06:31.128 I/ATC: Changing KPWK CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KMDW!
+CurFlow: calm wind rule NewFlow: s/sw flow
+0:06:31.128 I/ATC: Changing KMDW CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KMDW. Advancing...
+0:06:31.128 I/ATC: Changing KMDW CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KMDW. Advancing...
+0:06:31.128 I/ATC: Changing KMDW CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KORD!
+CurFlow: West flow-calm (low vis) NewFlow: East flow (low vis)
+0:06:31.128 I/ATC: Changing KORD CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KORD. Advancing...
+0:06:31.128 I/ATC: Changing KORD CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KORD. Advancing...
+0:06:31.128 I/ATC: Changing KORD CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KENW!
+CurFlow: AUTOGEN: North NewFlow: AUTOGEN: South
+0:06:31.128 I/ATC: Changing KENW CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KENW. Advancing...
+0:06:31.128 I/ATC: Changing KENW CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KENW. Advancing...
+0:06:31.128 I/ATC: Changing KENW CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KJVL!
+CurFlow: AUTOGEN: North NewFlow: AUTOGEN: South
+0:06:31.128 I/ATC: Changing KJVL CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KJVL. Advancing...
+0:06:31.128 I/ATC: Changing KJVL CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KJVL. Advancing...
+0:06:31.128 I/ATC: Changing KJVL CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KUGN!
+CurFlow: AUTOGEN: North NewFlow: AUTOGEN: South
+0:06:31.128 I/ATC: Changing KUGN CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KUGN. Advancing...
+0:06:31.128 I/ATC: Changing KUGN CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KUGN. Advancing...
+0:06:31.128 I/ATC: Changing KUGN CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KARR!
+CurFlow: AUTOGEN: North NewFlow: AUTOGEN: South
+0:06:31.128 I/ATC: Changing KARR CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KARR. Advancing...
+0:06:31.128 I/ATC: Changing KARR CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KARR. Advancing...
+0:06:31.128 I/ATC: Changing KARR CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KDPA!
+CurFlow: AUTOGEN: North NewFlow: AUTOGEN: South
+0:06:31.128 I/ATC: Changing KDPA CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KDPA. Advancing...
+0:06:31.128 I/ATC: Changing KDPA CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KDPA. Advancing...
+0:06:31.128 I/ATC: Changing KDPA CabState from 2 to 0
+0:06:31.128 I/ATC: Airport flow changed at KUES!
+CurFlow: AUTOGEN: North NewFlow: AUTOGEN: South
+0:06:31.128 I/ATC: Changing KUES CabState from 0 to 1
+0:06:31.128 I/ATC: All departures are done at KUES. Advancing...
+0:06:31.128 I/ATC: Changing KUES CabState from 1 to 2
+0:06:31.128 I/ATC: All arrivals are done at KUES. Advancing...
+0:06:31.128 I/ATC: Changing KUES CabState from 2 to 0
+0:31:19.846 I/FLT: Init dat_p5 type:loc_general_area lat:42.424774 lon:-87.074564 ele(ft):9764.490878 psi:154.245178 spd(kts):14.037821
+0:31:19.846 I/ATC: Aircraft p=5 (N05XP) started at KORD:Southwest cargo--UPS
+0:31:19.846 I/FLT: Init dat_p5 type:loc_ram apt:KORD start at:Southwest cargo--UPS
+0:45:31.094 I/SCN: DSF load time: 198444 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+41-090.dsf (0 tris)
+0:45:31.545 I/SCN: DSF load time: 365113 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-090.dsf (0 tris)
+0:45:31.696 I/SCN: DSF load time: 145934 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+41-090.dsf (0 tris)
+0:45:36.508 I/SCN: DSF load time: 4681141 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+41-090.dsf (228510 tris)
+0:45:36.559 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-090.dsf has a number of problems with its road network: 11 doubled nodes, 0 direction reverses, 0 short segments, 3 roads deleted.
+0:45:37.664 I/SCN: DSF load time: 86050 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+42-090.dsf (0 tris)
+0:45:38.043 I/SCN: DSF load time: 353128 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-090.dsf (0 tris)
+0:45:38.767 I/SCN: DSF load time: 684756 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+42-090.dsf (0 tris)
+0:45:39.217 I/SCN: DSF load time: 465476 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+42-090.dsf (0 tris)
+0:45:43.331 I/SCN: DSF load time: 4063520 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+42-090.dsf (213342 tris)
+0:45:43.429 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+42-090.dsf has a number of problems with its road network: 22 doubled nodes, 1 direction reverses, 0 short segments, 4 roads deleted.
+0:54:44.901 I/SCN: DSF load time: 305855 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+43-090.dsf (0 tris)
+0:54:45.333 I/SCN: DSF load time: 64322 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+43-088.dsf (0 tris)
+0:54:45.680 I/SCN: DSF load time: 754518 for file Custom Scenery/w2xp_America_aerials/Earth nav data/+40-090/+43-090.dsf (0 tris)
+0:54:45.982 I/SCN: DSF load time: 661627 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+43-088.dsf (0 tris)
+0:54:46.911 I/SCN: DSF load time: 1228009 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+43-090.dsf (0 tris)
+0:54:50.766 I/SCN: DSF load time: 3839112 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+43-090.dsf (0 tris)
+0:54:51.600 I/SCN: DSF load time: 5617442 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+43-088.dsf (0 tris)
+0:54:51.706 I/SCN: DSF load time: 110296 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+43-088.dsf (0 tris)
+0:54:52.490 I/SCN: DSF load time: 1707115 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+43-090.dsf (0 tris)
+0:54:55.918 I/SCN: DSF load time: 4224848 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+43-088.dsf (82547 tris)
+0:54:55.968 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+43-088.dsf has a number of problems with its road network: 25 doubled nodes, 0 direction reverses, 0 short segments, 19 roads deleted.
+0:54:58.064 I/SCN: DSF load time: 5568584 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+43-090.dsf (192077 tris)
+0:54:58.220 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+43-090.dsf has a number of problems with its road network: 16 doubled nodes, 0 direction reverses, 0 short segments, 5 roads deleted.
+0:55:02.280 I/SCN: DSF load time: 1841890 for file Custom Scenery/KOSH - Wittman Regional (airshow version)/Earth nav data/+40-090/+43-089.dsf (0 tris)
+0:55:02.383 I/SCN: DSF load time: 99471 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+43-089.dsf (0 tris)
+0:55:02.616 I/SCN: DSF load time: 189031 for file Custom Scenery/w2xp_America_aerials/Earth nav data/+40-090/+43-089.dsf (0 tris)
+0:55:03.283 I/SCN: DSF load time: 646876 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+43-089.dsf (0 tris)
+0:55:04.170 I/SCN: DSF load time: 865497 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+43-089.dsf (0 tris)
+0:55:04.437 I/SCN: DSF load time: 245493 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+43-089.dsf (0 tris)
+0:55:10.758 I/SCN: DSF load time: 6285357 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+43-089.dsf (188651 tris)
+0:55:10.874 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+43-089.dsf has a number of problems with its road network: 13 doubled nodes, 0 direction reverses, 0 short segments, 3 roads deleted.
+1:27:17.773 I/FLT: Init dat_p0 type:loc_tak apt:KBUU rwy:11
+GroundTraffic: Note: Ignoring duplicate waypoint at line 496
+GroundTraffic: Note: Ignoring duplicate waypoint at line 525
+GroundTraffic: Note: Ignoring duplicate waypoint at line 555
+GroundTraffic: Note: Ignoring duplicate waypoint at line 634
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+WARNING: the named light Light does not exist.
+1:43:16.668 I/SCN: DSF load time: 115972 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+41-090.dsf (0 tris)
+1:43:16.948 I/SCN: DSF load time: 90110 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:19.528 I/SCN: DSF load time: 2789865 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-090.dsf (0 tris)
+1:43:19.684 I/SCN: DSF load time: 2730993 for file Custom Scenery/Chicago/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:20.115 I/SCN: DSF load time: 609252 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+41-090.dsf (0 tris)
+1:43:32.228 I/SCN: DSF load time: 12547796 for file Custom Scenery/KMDW Chicago Midway/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:33.328 I/SCN: DSF load time: 13087994 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+41-090.dsf (228510 tris)
+1:43:33.366 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-090.dsf has a number of problems with its road network: 11 doubled nodes, 0 direction reverses, 0 short segments, 3 roads deleted.
+1:43:35.096 I/SCN: DSF load time: 2837035 for file Custom Scenery/KMDW Ortho/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:37.034 I/SCN: DSF load time: 1944232 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:42.993 I/SCN: DSF load time: 5975920 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:44.098 I/SCN: DSF load time: 1043318 for file Custom Scenery/MeigsAirportOrthos/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:58.336 I/SCN: DSF load time: 14265047 for file Custom Scenery/Chicago O'Hare KORD 2.0/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:59.089 I/SCN: DSF load time: 712366 for file Custom Scenery/Chicago Orthophotos 2.0/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:59.139 I/SCN: DSF load time: 17874 for file Custom Scenery/Chicago zExclusion/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:59.691 I/SCN: DSF load time: 423851 for file Custom Scenery/Meigs McCormickPlace&SoldierField02/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:43:59.798 I/SCN: DSF load time: 112384 for file Custom Scenery/Global Airports/Earth nav data/+40-090/+41-088.dsf (0 tris)
+1:44:07.641 I/SCN: DSF load time: 7753748 for file Global Scenery/Recuts 1030/Earth nav data/+40-090/+41-088.dsf (190761 tris)
+1:44:07.867 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-088.dsf has a number of problems with its road network: 54 doubled nodes, 3 direction reverses, 0 short segments, 36 roads deleted.
+1:44:13.826 I/SCN: DSF load time: 101546 for file Custom Scenery/zzz_Treelines_Farms_North_America_v2/Earth nav data/+40-090/+41-089.dsf (0 tris)
+1:44:14.589 I/SCN: DSF load time: 762654 for file Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-089.dsf (0 tris)
+1:44:15.991 I/SCN: DSF load time: 1398891 for file Custom Scenery/w2xp_America/Earth nav data/+40-090/+41-089.dsf (0 tris)
+1:44:18.695 I/SCN: DSF load time: 2635351 for file Global Scenery/X-Plane 10 Global Scenery/Earth nav data/+40-090/+41-089.dsf (170167 tris)
+1:44:18.812 E/DSF: The DSF Custom Scenery/w2xp_America_net/Earth nav data/+40-090/+41-089.dsf has a number of problems with its road network: 16 doubled nodes, 1 direction reverses, 0 short segments, 9 roads deleted.
+1:51:49.645 I/FLT: Init dat_p4 type:loc_general_area lat:41.838134 lon:-87.492562 ele(ft):34798.779691 psi:348.490295 spd(kts):241.950349
+1:51:49.645 I/ATC: p=4 (N04XP) Popup FP filed to KNKX at 36000 via 4208N08750W CVA IRK OJC KAKEL HYS GLD FQF RICAS ETL HVE TBC PGS PKE VCV MZB , type=2
+1:51:49.645 D/ATC: Validating altitude for p=4 (N04XP): filed: 36000 usable_rte_dist: 1448.989502 maxDescent: 362000 maxAlt: 362000 minAlt: 36000 chosen_alt: 36000
+1:51:49.645 D/ATC: p=4 (N04XP): Cleared IFR
+1:51:49.645 I/FLT: Init dat_p4 type:loc_specify_lle lat:42.203644 lon:-87.416557 ele(ft):35999.999634 psi:258.053162 spd(kts):273.750014
+1:51:49.645 D/ATC: p=4 (N04XP): Fly Heading: 347
+1:51:49.645 D/ATC: p=4 (N04XP): Maintain FL35997
+1:51:49.645 I/ATC: Aircraft p=4 (N04XP) started airborne as an overflight at 42.203644, -87.416557, 10972.799805
+1:52:14.801 I/FLT: Init dat_p3 type:loc_general_area lat:41.897990 lon:-87.137623 ele(ft):184.100896 psi:345.985535 spd(kts):112.123002
+1:52:14.801 I/ATC: p=3 (N03XP) Popup FP filed to KGRR at 9000 via 4208N08759W MKG , type=2
+1:52:14.801 D/ATC: Validating altitude for p=3 (N03XP): filed: 9000 usable_rte_dist: 106.134155 maxDescent: 26000 maxAlt: 27000 minAlt: 9000 chosen_alt: 9000
+1:52:14.801 D/ATC: p=3 (N03XP): Cleared IFR
+1:52:14.801 I/FLT: Init dat_p3 type:loc_specify_lle lat:41.882942 lon:-88.479424 ele(ft):8999.999908 psi:53.587360 spd(kts):122.249999
+1:52:14.801 D/ATC: p=3 (N03XP): Fly Heading: 344
+1:52:14.801 D/ATC: p=3 (N03XP): Maintain 8999ft
+1:52:14.801 I/ATC: Aircraft p=3 (N03XP) started airborne as an overflight at 41.882942, -88.479424, 2743.199951
+1:57:15.119 I/FLT: Init dat_p2 type:loc_general_area lat:42.658157 lon:-87.759487 ele(ft):2950.016755 psi:80.238358 spd(kts):90.712046
+1:57:15.119 I/ATC: p=2 (N02XP) Popup FP filed to KGRR at 9000 via 4219N08812W MKG , type=2
+1:57:15.119 D/ATC: Validating altitude for p=2 (N02XP): filed: 9000 usable_rte_dist: 103.923355 maxDescent: 25000 maxAlt: 26000 minAlt: 9000 chosen_alt: 9000
+1:57:15.119 D/ATC: p=2 (N02XP): Cleared IFR
+1:57:15.119 I/FLT: Init dat_p2 type:loc_specify_lle lat:42.147503 lon:-88.635056 ele(ft):8999.999908 psi:61.060184 spd(kts):167.250009
+1:57:15.119 D/ATC: p=2 (N02XP): Fly Heading: 79
+1:57:15.119 D/ATC: p=2 (N02XP): Maintain 8999ft
+1:57:15.119 I/ATC: Aircraft p=2 (N02XP) started airborne as an overflight at 42.147503, -88.635056, 2743.199951
+1:57:23.809 I/FLT: Init dat_p1 type:loc_general_area lat:42.259704 lon:-88.753628 ele(ft):7724.509311 psi:45.051960 spd(kts):13.884432
+1:57:23.809 I/ATC: p=1 (N01XP) Popup FP filed to KGYY at 9000 via 4213N08808W , type=2
+1:57:23.809 D/ATC: Validating altitude for p=1 (N01XP): filed: 9000 usable_rte_dist: 55.133911 maxDescent: 13000 maxAlt: 14000 minAlt: 9000 chosen_alt: 9000
+1:57:23.809 D/ATC: p=1 (N01XP): Cleared IFR
+1:57:23.809 I/FLT: Init dat_p1 type:loc_specify_lle lat:42.465153 lon:-88.452431 ele(ft):8999.999908 psi:137.297623 spd(kts):76.500004
+1:57:23.809 D/ATC: p=1 (N01XP): Fly Heading: 45
+1:57:23.809 D/ATC: p=1 (N01XP): Maintain 8999ft
+1:57:23.809 I/ATC: Aircraft p=1 (N01XP) started airborne as an overflight at 42.465153, -88.452431, 2743.199951
+GroundTraffic: Can't find object or train "RescueX/trains/Straba_Ka_head.obj"
+Clean exit from threads.
+2:05:22.140 I/ATC: Airport flow changed at KORD!
+CurFlow: East flow (low vis) NewFlow: West flow (low vis)
+2:05:22.140 I/ATC: Changing KORD CabState from 0 to 1
+2:05:22.140 I/ATC: All departures are done at KORD. Advancing...
+2:05:22.140 I/ATC: Changing KORD CabState from 1 to 2
+2:05:22.140 I/ATC: All arrivals are done at KORD. Advancing...
+2:05:22.140 I/ATC: Changing KORD CabState from 2 to 0
+2:11:49.222 I/JOY: UNREGISTER Joystick device: Saitek X52 Pro Flight Control System - VID:1699PID:1890
+2:11:49.222 I/JOY: UNREGISTER Joystick device: T-Rudder - VID:1103PID:46713
+2:11:49.222 D/HID: HID Bridge Shutdown
+----- X-Plane has shut down -----

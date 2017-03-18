@@ -1,0 +1,6 @@
+Sitemap: https://gamecorner.us.to/sitemap.xml
+
+# global
+User-agent: *
+Disallow: /xmlrpc.php
+

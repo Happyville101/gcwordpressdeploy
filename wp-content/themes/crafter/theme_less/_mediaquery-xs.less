@@ -1,0 +1,394 @@
+@media (max-width: @screen-xs-max) {
+
+
+	/*
+	Header
+	========================================== 
+	*/
+	#header{
+		position: relative;
+		padding: 5px 0;
+	}
+	.home #header{
+		position: relative;
+	}
+	.logo_container{
+		position: relative;
+		display: block;
+		float: none;
+		margin-right: 0;
+		width: 82%;
+	}
+	#ql-navigation{
+		padding: 0;
+	}
+	#jqueryslidemenu{
+		margin-bottom: 20px;
+		margin-top: 0;
+		float: none;
+		text-align: left;
+	}
+	#jqueryslidemenu ul.nav > li{
+		display: block;
+	}
+	.home #jqueryslidemenu ul.nav > li > a{
+		color: @gray-dark;
+	}
+	#jqueryslidemenu ul.nav > li > ul{
+		float: none;
+		.box-shadow(none);
+	}
+	#ql_nav_collapse{
+		padding: 0;
+		padding-top: 10px;
+	}
+	.navbar-nav .open .dropdown-menu{
+		display: block;
+		width: 100%;
+		.box-shadow(none);
+	}
+	.dropdown-submenu > .dropdown-menu{
+		left: 0;
+		position: relative;
+		padding-left: 20px;
+	}
+
+
+
+
+
+
+
+	/*1st sub level menu*/
+	#ql-navigation .navbar-nav{
+		margin: 0;
+	}
+	#jqueryslidemenu ul.nav > li > ul{
+		position: relative;
+		top: 0;
+		padding: 0;
+	}
+	.dropdown:hover .dropdown-menu {
+	    display: none;
+	 }
+	 .dropdown.open:hover .dropdown-menu {
+	    display: block;
+	    width: 100%;
+	 }
+	#jqueryslidemenu ul.nav > li > ul > li.menu-item-has-children{
+		display: block;
+		width: 100%;
+		padding: 5px 20px;
+	}
+
+	#jqueryslidemenu ul.nav > li > ul > li.has-image{
+		display: none;
+	}
+
+
+
+
+
+	/*
+	Home
+	========================================== 
+	*/
+	.welcome-section{
+		padding-bottom: 60%;
+	}
+	.welcome-section .welcome-intro{
+		.translate(-50%, -50%);
+	}
+	.welcome-intro .intro-line{
+		.font-size(20);
+	}
+	.welcome-intro .intro-text{
+	    .font-size(14);
+	    margin-bottom: 1.25em;
+	    display: none;
+	}
+
+	.btn-ql, .btn-ql:hover, .btn-ql:active{
+		.font-size(13);
+		padding: 0.76923076923077em 1.53846153846154em;
+	}
+
+	
+	/*
+	Service Section
+	---------------------------------------*/
+	.services-section{
+		padding: 10% 5% 1% 5%;
+	}
+	.service{
+	    margin: 0 0 15%;
+	    width: 100%;
+	}
+
+
+	/*
+	About Section
+	---------------------------------------*/
+	.about-section .about-gallery{
+	    width: 100%;
+	    margin-right: 0;
+	}
+	.about-section .about-gallery .about-gallery-image{
+		width: 45%;
+		padding-bottom: 45%;
+	}
+	.about-section .about-text{
+	    width: 100%;
+	    margin-left: 0;
+	    padding-top: 10%;
+	}
+	.about-section .about-text .about-service{
+	    margin-bottom: 10%;
+	}
+
+
+
+	/*
+	Quote Section
+	---------------------------------------*/
+	.quote-wrap{
+		display: block;
+		width: 100%;
+		padding: 5% 2% 5% 8%;
+	}
+	.laptop-wrap{
+		display: block;
+		width: 100%;
+	}
+	.quote-wrap blockquote{
+		.font-size(16);
+	}
+	.quote-cite{
+		.font-size(14);
+	}
+
+	/*
+	Video Section
+	---------------------------------------*/
+	.video-wrap{
+		display: block;
+	    width: 100%;
+	}
+	.video-text-wrap{
+		width: 100%;
+		display: block;
+		padding: 10%;
+	}
+
+	/*
+	Bullet Points Section
+	---------------------------------------*/
+	.bullet-points-section{
+		padding-top: 7%;
+	}
+	.bullet-points-wrap{
+	    display: block;
+	    width: 100%;
+	    padding: 5% 0;
+	}
+	.bullet-point{
+	    display: block;
+	    width: 90%;
+	    margin: 10% 5%;
+	}
+	.bullet-points-image{
+	    width: 100%;
+	    display: block;
+	}
+	
+
+	/*
+	Testimonials Section
+	---------------------------------------*/
+	.testimonials-section{
+		padding: 14% 5%;
+	}
+	.testimonial blockquote{
+		.font-size(22);
+	}
+
+	/*
+	Image Section
+	---------------------------------------*/
+	.image-section .image-wrap{
+		position: relative;
+		top: auto;
+		left: auto;
+		bottom: auto;
+		padding-bottom: 52%;
+		width: 100%;
+		display: block;
+	}
+	.image-text{
+		margin-left: 0;
+		width: 100%;
+		display: block;
+		padding: 10%;
+	}
+	.image-text p{
+		.font-size(14);
+	}
+
+	/*
+	Team Section
+	---------------------------------------*/
+	.team-section{
+		padding: 10% 0;
+	}
+	.team-wrap{
+		margin-bottom: 2.5rem;
+	}
+	.team-wrap:after {
+	  content: 'flickity';
+	  display: none; /* hide :after */
+	}
+	.team-member{
+		width: 70%;
+		margin: 10% 11%;
+	}
+	.team-member .member-image{
+	    strong{
+	        bottom: 69%;
+	    }
+	}
+	.team-member .member-text, .widget_team-member-widget .member-social{
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	}
+
+
+
+
+	/*
+	Client Section
+	---------------------------------------*/
+	.clients-section{
+		padding: 10% 0;
+	}
+	.clients-wrap .clients-logo{
+		width: 25%;
+		margin: 5%;
+	}
+
+
+	/*
+	Map Section
+	---------------------------------------*/
+	.map-wrap{
+		position: relative;
+		left: 0;
+		top: 0;
+		bottom: auto;
+		width: 100%;
+		height: 250px;
+		display: block;
+	}
+	.map-content{
+		width: 100%;
+		margin-left: 0;
+		display: block;
+		padding: 10%;
+	}
+
+	/*
+	Pricing Section
+	---------------------------------------*/
+	.pricing-section .pricing-table{
+		width: 90%;
+		margin: 10% 5%;
+		margin-bottom: 80px;
+	}
+
+	/*
+	Portfolio Section
+	---------------------------------------*/
+	.portfolio-section .portfolio-item, .portfolio-container .portfolio-item{
+		width: 88%;
+		margin: 6%;
+		padding-bottom: 51.5%;
+		//overflow: hidden;
+	}
+	.portfolio-section .portfolio-item.portrait, .portfolio-container .portfolio-item.portrait{
+		padding-bottom: 111%;
+	}
+	.portfolio-section .portfolio-item .portfolio-hover span, .portfolio-container .portfolio-item .portfolio-hover span{
+		.font-size(16)
+	}
+
+	/*
+	Blog Section
+	---------------------------------------*/
+	.blog-section{
+		padding: 7% 0;
+	}
+	.blog-wrap .blog-item{
+		width: 100%;
+	}
+	
+	/*
+	Contact Section
+	---------------------------------------*/
+	.contact-content{
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	/*
+	Content
+	--------------------------------
+	*/
+	.metadata{
+		display: block;
+	}
+	.metadata ul li{
+		float: left;
+	}
+
+
+	/*
+	Sidebar
+	========================================== 
+	*/
+	#sidebar{
+		padding-right: 0;
+	}
+
+
+
+
+
+
+	/*Comments Form---------------------------------------------------*/
+	#respond .input-wrap{
+		width:100%;
+	}
+
+
+
+
+	
+	/*
+	Footer
+	========================================== 
+	*/
+	.sub_footer p{
+		margin-bottom: 20px;
+		float: none;
+		line-height: 1.6em;
+	}
+	.nav_social{
+		float: none;
+	}
+	
+
+	.section-title{
+		margin-bottom: 4rem;
+	}
+
+}

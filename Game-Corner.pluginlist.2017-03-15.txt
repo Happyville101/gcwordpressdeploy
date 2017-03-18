@@ -1,0 +1,170 @@
+------------------------------------------------------------
+  Plugin list generated with BackWPup version: 3.3.7
+  http://backwpup.com
+  Blog Name: Game Corner
+  Blog URL: https://gamecorner.us
+  Generated on: 2017-03-15 17:53.41
+------------------------------------------------------------
+
+
+All plugin information:
+------------------------------
+Adsense Box (v.1.0.9) from PB One
+	https://wordpress.org/plugins/adsense-box
+AdSense Invalid Click Protector (v.1.2.1) from Saumya Majumder
+	https://www.isaumya.com/portfolio-item/adsense-invalid-click-protector/
+Advanced Custom Fields (v.4.4.11) from Elliot Condon
+	http://www.advancedcustomfields.com/
+Akismet Anti-Spam (v.3.3) from Automattic
+	https://akismet.com/
+BackWPup (v.3.3.7) from Inpsyde GmbH
+	http://backwpup.com
+bbPress (v.2.5.12) from The bbPress Community
+	https://bbpress.org
+BuddyPress (v.2.8.2) from The BuddyPress Community
+	https://buddypress.org/
+Change Toolbar Plugin (v.1.0) from Craig Buckler
+	
+Clef (v.2.6.1) from Clef
+	http://wordpress.org/extend/plugins/wpclef
+Cloudflare (v.3.2.0) from John Wineman, Furkan Yilmaz, Junade Ali (Cloudflare Team)
+	https://blog.cloudflare.com/new-wordpress-plugin/
+CodePinch (v.4.0.1) from Vasyl Martyniuk <vasyl@vasyltech.com>
+	
+Contact Form 7 (v.4.7) from Takayuki Miyoshi
+	https://contactform7.com/
+Cron GUI (v.1.03) from Simon Wheatley
+	http://wordpress.org/extend/plugins/cron-view/
+CYSTEME Finder, the admin files explorer (v.2.2) from CYSTEME
+	http://cysteme.fr
+DobsonDev Shortcodes (v.2.1.4) from Alex Dobson
+	http://dobsondev.com/portfolio/dobsondev-shortcodes/
+Free CDN (v.1.1.2) from Phoenixheart
+	http://www.phoenixheart.net/wp-plugins/free-cdn
+Games (v.2.7.1) from Critic Games
+	http://critic.net/wp-plugin/
+Google AdSense (v.1.2.1) from Google
+	http://wordpress.org/plugins/google-publisher
+Google Analytics Dashboard for WP (v.4.9.6.2) from Alin Marcu
+	https://deconf.com
+Google XML Sitemaps (v.4.0.8) from Arne Brachhold
+	http://www.arnebrachhold.de/redir/sitemap-home/
+Header and Footer Scripts (v.1.3.4) from Anand Kumar
+	http://www.blogsynthesis.com/plugins/header-and-footer-scripts/
+Hello Dolly (v.1.6) from Matt Mullenweg
+	http://wordpress.org/plugins/hello-dolly/
+Https Switcher Plugin (v.0.3) from Janiko
+	
+Jetpack by WordPress.com (v.4.7) from Automattic
+	http://jetpack.com
+jsDelivr - Wordpress CDN Plugin (v.0.2.1) from jsDelivr
+	http://www.jsdelivr.com
+Login Page Styler (v.3.1.5) from Zia Imtiaz
+	http://web-settler.com/login-page-styler/
+LTK Remove Branding (v.1.1.1) from Jose J. Fernández
+	https://wordpress.org/plugins/ltk-remove-branding/
+Maintenance (v.3.3) from fruitfulcode
+	http://wordpress.org/plugins/maintenance/
+Nav Menu Roles (v.1.8.6) from Kathy Darling
+	http://www.kathyisawesome.com/449/nav-menu-roles/
+NextGEN Gallery (v.2.1.79) from Imagely
+	https://www.imagely.com/wordpress-gallery-plugin/nextgen-gallery/
+Page Builder by SiteOrigin (v.2.4.25) from SiteOrigin
+	https://siteorigin.com/page-builder/
+POWr File Embed (v.1.6.2) from POWr.io
+	https://www.powr.io
+Really Simple SSL (v.2.5.10) from Rogier Lankhorst
+	https://www.really-simple-ssl.com
+Scripts n Styles (v.3.3.2) from unFocus Projects
+	http://www.unfocus.com/projects/scripts-n-styles/
+SiteOrigin Widgets Bundle (v.1.8.1) from SiteOrigin
+	https://siteorigin.com/widgets-bundle/
+SMTP Mailer (v.1.0.3) from naa986
+	http://wphowto.net/smtp-mailer-plugin-for-wordpress-1482
+SSL Insecure Content Fixer (v.2.2.3) from WebAware
+	https://ssl.webaware.net.au/
+Sudoku Game (v.1.0.9) from orcas2016
+	https://wordpress.org/plugins/sudoku-game/
+Theme Check (v.20160523.1) from Otto42, pross
+	http://ottopress.com/wordpress-plugins/theme-check/
+Theme My Login (v.6.4.9) from Jeff Farthing
+	http://www.jfarthing.com/extend/wordpress-plugins/theme-my-login/
+TinyMCE Advanced (v.4.4.3) from Andrew Ozz
+	http://www.laptoptips.ca/projects/tinymce-advanced/
+TinyMCE Templates (v.4.7.0) from Takayuki Miyauchi
+	http://miya0001.github.io/tinymce-templates/
+User Role Change Emailer (v.) from 
+	https://gamecorner.ddns.net
+User Role Editor (v.4.32.1) from Vladimir Garagulya
+	https://www.role-editor.com
+W3 Total Cache (v.0.9.5.2) from Frederick Townes
+	https://www.w3-edge.com/wordpress-plugins/w3-total-cache/
+Wordfence Security (v.6.3.4) from Wordfence
+	http://www.wordfence.com/
+WP-PageNavi (v.2.91) from Lester 'GaMerZ' Chan
+	http://lesterchan.net/portfolio/programming/php/
+WP File Manager (v.1.5) from mndpsingh287
+	https://wordpress.org/plugins/wp-file-manager
+WP reCaptcha Integration (v.1.1.10) from Jörn Lund
+	https://wordpress.org/plugins/wp-recaptcha-integration/
+WP Symposium Toolbar (v.0.33.0) from AlphaGolf_fr
+	
+Yoast SEO (v.4.4) from Team Yoast
+	https://yoast.com/wordpress/plugins/seo/#utm_source=wpadmin&utm_medium=plugin&utm_campaign=wpseoplugin
+
+Active plugins:
+------------------------------
+Akismet Anti-Spam
+BackWPup
+bbPress
+BuddyPress
+Change Toolbar Plugin
+Clef
+CodePinch
+Contact Form 7
+Cron GUI
+CYSTEME Finder, the admin files explorer
+DobsonDev Shortcodes
+Games
+Google Analytics Dashboard for WP
+Https Switcher Plugin
+Jetpack by WordPress.com
+Login Page Styler
+Maintenance
+Nav Menu Roles
+Page Builder by SiteOrigin
+Really Simple SSL
+Scripts n Styles
+SiteOrigin Widgets Bundle
+SMTP Mailer
+SSL Insecure Content Fixer
+Theme Check
+Theme My Login
+TinyMCE Advanced
+TinyMCE Templates
+User Role Change Emailer
+User Role Editor
+W3 Total Cache
+Wordfence Security
+WP-PageNavi
+WP reCaptcha Integration
+Yoast SEO
+
+Inactive plugins:
+------------------------------
+Adsense Box
+AdSense Invalid Click Protector
+Advanced Custom Fields
+Cloudflare
+Free CDN
+Google AdSense
+Google XML Sitemaps
+Header and Footer Scripts
+Hello Dolly
+jsDelivr - Wordpress CDN Plugin
+LTK Remove Branding
+NextGEN Gallery
+POWr File Embed
+Sudoku Game
+WP File Manager
+WP Symposium Toolbar
